@@ -10,7 +10,7 @@ layout: true
       <td style="text-align:right"><a href="https://www.slub-dresden.de/">www.slub-dresden.de</a></td>
     </tr>
     <tr>
-      <td style="text-align:right">Referat 4.3</td>
+      <td style="text-align:right"></td>
       <td />
     </tr>
   </table>
@@ -19,10 +19,14 @@ layout: true
 <div class="my-title-footer">
   <table>
     <tr>
+      <td style="text-align:left"><b>Robert Sachunsky</b></td>
+      <td style="text-align:left"><b>Markus Weigelt</b></td>
       <td style="text-align:left"><b>Kay-Michael Würzner</b></td>
     </tr>
     <tr>
-      <td style="text-align:left">Referat 4.3</td>
+      <td style="text-align:left">Abteilung Informationstechnologie</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Abteilung Benutzung und Information</td>
     </tr>
     <tr>
       <td style="font-size:8pt"><b>27.02.24</b></td>
@@ -38,30 +42,32 @@ layout: true
 class: title-slide
 count: false
 
-# Title
-## Subtitle
+# Edierst Du noch oder trainierst Du schon?
+## Datenmanagement für Trainingsdaten für die automatische Texterkennung
 
 ---
 
 # Overview
 
-- Section 1
-  + Subsection 1
-- Section 2
+- Prinzipien der automatischen Texterkennung
+- Wege zur *Ground Truth*
+- **Datenmangement für Trainingsdaten** (praktischer Teil)
+- Trainingseffekte
+- Diskussion, Ausblick und ein Wort zu Transkribus
 
 ---
 
 class: part-slide
 count: false
 
-# Topic 1
+# Prinzipien der automatischen Texterkennung
 
 ---
 
 class: part-slide
 
-# Many thanks for your attention!
+# Vielen Dank für Ihre Aufmerksamkeit!
 
 <center>
-<a href="https://wrznr.github.io/slide-template/">wrznr.github.io/slide-template</a>
+<a href="https://wrznr.github.io/gt-management-dhd-2024/">wrznr.github.io/gt-management-dhd-2024</a>
 </center>
