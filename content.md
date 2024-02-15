@@ -19,8 +19,8 @@ layout: true
 <div class="my-title-footer">
   <table>
     <tr>
-      <td style="text-align:left"><b>Robert Sachunsky</b></td>
-      <td style="text-align:left"><b>Markus Weigelt</b></td>
+      <td style="text-align:left"><b>Robert Sachunsky, Markus Weigelt</b></td>
+      <td style="text-align:left"><b></b></td>
       <td style="text-align:left"><b>Kay-Michael Würzner</b></td>
     </tr>
     <tr>
