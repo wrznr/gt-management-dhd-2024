@@ -531,6 +531,12 @@ count: false
 
 class: part-slide
 
+# Wege zur *Ground Truth*
+
+---
+
+class: part-slide
+
 # Vielen Dank für Ihre Aufmerksamkeit!
 
 <center>
