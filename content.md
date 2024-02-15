@@ -90,7 +90,7 @@ count: false
 .fifty[
 ]
 .fourty[
-<p style="margin-top:-80px">
+<p style="margin-top:0px">
 <img src="img/grenzboten_raw.svg" />
 </p>
 ]
