@@ -283,7 +283,7 @@ count: false
 - kontextsensitive Erkennung über *Übergangswahrscheinlichkeiten* der Vektoren
 - Zerlegung der Seite in *Zeilen* notwendig
 - Vorgehen robuster gegenüber Varianz durch Artefakte als zeichenorientierte Ansätze
-- `Tesseract` (ab Version 4), `OCRopus`, `kraken`, `Calamari`
+- `Tesseract`, `OCRopus`, `kraken`, `Calamari`
   + Einsatz *neuronaler Netze* für die Sequenzklassifikation
 
 ---
@@ -339,6 +339,193 @@ count: false
 ```
 ]
 ]
+
+---
+
+# Prinzipien der automatischen Texterkennung
+
+- schrittweise Verarbeitung
+
+<center>
+<img src="img/nbg_region.png" width="400px" />
+</center>
+<center>
+<p>↓</p>
+</center>
+<center>
+<p style="display: inline-block; text-align: left; font-size: 16pt.; font-style: italic;">
+oberwähntem Tage mancher sorgliche Gedanke auf,<br/>
+&amp; wir seufzten öfters zum Heiland, daß Er uns<br/>
+vor allem Schaden, der uns etwa in der folgen-<br/>
+den Nacht begegnen könnte, in Gnaden bewahren
+</p>
+</center>
+
+---
+
+# Prinzipien der automatischen Texterkennung
+
+- Schritt 1: Zeilenerkennung
+    + **regelbasierte** (Bildmorphologie) oder
+    + **datengetriebene** Verfahren (e.g. Pixelklassifikation)
+
+<center>
+<img src="img/nbg_region.png" width="400px" />
+</center>
+<center>
+<p>↓</p>
+</center>
+<center>
+<img src="img/nbg_lines.png" width="400px" />
+</center>
+
+---
+
+# Prinzipien der automatischen Texterkennung
+
+- Schritt 2: Vektorisierung
+    + **Skalierung** auf einheitliche Höhe
+    + **Unterteilung** in 1 Pixel breite Streifen
+
+<center>
+<img src="img/nbg_lines.png" width="400px" />
+</center>
+<center>
+<p>↓</p>
+</center>
+<center>
+<img src="img/nbg_grid.png" width="400px" />
+</center>
+
+---
+
+# Prinzipien der automatischen Texterkennung
+
+- Schritt 3: Zeichenerkennung
+    + **Übergangswahrscheinlichkeiten** zwischen Vektoren
+    + Rückgriff auf (vorab) trainiertes **Modell**
+
+<center>
+<img src="img/nbg_grid.png" width="400px" />
+</center>
+<center>
+<p>↓</p>
+</center>
+<center>
+<p style="display: inline-block; text-align: left; font-size: 16pt.; font-style: italic;">
+oberwähntem Tage mancher sorgliche Gedanke auf,<br/>
+&amp; wir seufzten öfters zum Heiland, daß Er uns<br/>
+vor allem Schaden, der uns etwa in der folgen-<br/>
+den Nacht begegnen könnte, in Gnaden bewahren
+</p>
+</center>
+
+---
+
+# Prinzipien der automatischen Texterkennung
+
+- einheitliches Paradigma für automatische Erkennung  
+  von Handschrift und Druck (und Noten etc.)
+  + Training: auf Zeilenebene zugeordnete Bild-Text-Paare
+- jedoch höhere Varianz bei Handschriften…
+  + Gestalt (Hand vs. Schriftart)
+  + Materialität (Stift, Feder, Papier, Presse)
+  + Aufwand (Notiz, Brief, Zeitung, Festschrift ...)
+
+.cols[
+.fourty[
+<center>
+<img src="img/line_hand1.png" width="290px" />
+<img src="img/line_hand2.png" width="290px" />
+<img src="img/line_hand3.png" width="290px" />
+</center>
+]
+.sixty[
+<center>
+<img src="img/line_print1.png" style="width: 450px" />
+<img src="img/line_print2.png" style="width: 450px" />
+<img src="img/line_print3.png" style="width: 450px" />
+</center>
+]
+]
+
+---
+
+# Prinzipien der automatischen Texterkennung
+
+- Trainingsdatenquantität
+  + größere Menge an Trainingsdaten (intra-individuelle Varianz)
+  + schlechtere Übertragbarkeit trainierter Modelle (inter-individuelle Varianz)
+- Trainingsdatenqualität
+  + (teilweise) schwerer zu lesendes Ausgangsmaterial
+  + komplexe Aufbereitung für Training wegen aufwendigerer Segmentierung
+
+<center>
+  <img src="img/larex1.png" width="500px" alt="larex editing"/>
+  <p>
+  Annotation mit <a href="https://ocr.slub-dresden.de/Larex/">LAREX</a>
+  </p>
+</center>
+
+---
+
+count: false
+
+# Prinzipien der automatischen Texterkennung
+
+- Trainingsdatenquantität
+  + größere Menge an Trainingsdaten (intra-individuelle Varianz)
+  + schlechtere Übertragbarkeit trainierter Modelle (inter-individuelle Varianz)
+- Trainingsdatenqualität
+  + (teilweise) schwerer zu lesendes Ausgangsmaterial
+  + komplexe Aufbereitung für Training wegen aufwendigerer Segmentierung
+
+<center>
+  <img src="img/larex5.png" width="500px" alt="larex editing"/>
+  <p>
+  Annotation mit <a href="https://ocr.slub-dresden.de/Larex/">LAREX</a>
+  </p>
+</center>
+
+---
+
+count: false
+
+# Prinzipien der automatischen Texterkennung
+
+- Trainingsdatenquantität
+  + größere Menge an Trainingsdaten (intra-individuelle Varianz)
+  + schlechtere Übertragbarkeit trainierter Modelle (inter-individuelle Varianz)
+- Trainingsdatenqualität
+  + (teilweise) schwerer zu lesendes Ausgangsmaterial
+  + komplexe Aufbereitung für Training wegen aufwendigerer Segmentierung
+
+<center>
+  <img src="img/larex8.png" width="500px" alt="larex editing"/>
+  <p>
+  Annotation mit <a href="https://ocr.slub-dresden.de/Larex/">LAREX</a>
+  </p>
+</center>
+
+---
+
+count: false
+
+# Prinzipien der automatischen Texterkennung
+
+- Trainingsdatenquantität
+  + größere Menge an Trainingsdaten (intra-individuelle Varianz)
+  + schlechtere Übertragbarkeit trainierter Modelle (inter-individuelle Varianz)
+- Trainingsdatenqualität
+  + (teilweise) schwerer zu lesendes Ausgangsmaterial
+  + komplexe Aufbereitung für Training wegen aufwendigerer Segmentierung
+
+<center>
+  <img src="img/larex12.png" width="500px" alt="larex editing"/>
+  <p>
+  Annotation mit <a href="https://ocr.slub-dresden.de/Larex/">LAREX</a>
+  </p>
+</center>
 
 ---
 
