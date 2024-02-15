@@ -90,7 +90,7 @@ count: false
 .fifty[
 ]
 .fourty[
-<p style="margin-top:0px">
+<p style="margin-top:-20px">
 <img src="img/grenzboten_raw.svg" />
 </p>
 ]
@@ -107,7 +107,7 @@ count: false
 - Bildvorverarbeitung
 ]
 .fourty[
-<p style="margin-top:0px">
+<p style="margin-top:-20px">
 <img src="img/grenzboten_raw.svg" />
 </p>
 ]
@@ -124,7 +124,7 @@ count: false
 - Bildvorverarbeitung
 ]
 .fourty[
-<p style="margin-top:0px">
+<p style="margin-top:-20px">
 <img src="img/grenzboten_opt.svg" />
 </p>
 ]
@@ -142,7 +142,7 @@ count: false
 - Layoutanalyse
 ]
 .fourty[
-<p style="margin-top:0px">
+<p style="margin-top:-20px">
 <img src="img/grenzboten_opt.svg" />
 </p>
 ]
@@ -160,7 +160,7 @@ count: false
 - Layoutanalyse
 ]
 .fourty[
-<p style="margin-top:0px">
+<p style="margin-top:-20px">
 <img src="img/grenzboten_struct.svg" />
 </p>
 ]
@@ -181,7 +181,7 @@ count: false
         + Überschriften
 ]
 .fourty[
-<p style="margin-top:0px">
+<p style="margin-top:-20px">
 <img src="img/grenzboten_struct.svg" />
 </p>
 ]
@@ -207,7 +207,7 @@ count: false
         + Marginalien etc.
 ]
 .fourty[
-<p style="margin-top:0px">
+<p style="margin-top:-20px">
 <img src="img/grenzboten_struct.svg" />
 </p>
 ]
@@ -236,7 +236,7 @@ count: false
         + Tabellen etc.
 ]
 .fourty[
-<p style="margin-top:0px">
+<p style="margin-top:-20px">
 <img src="img/grenzboten_struct.svg" />
 </p>
 ]
@@ -266,7 +266,7 @@ count: false
 - Texterkennung
 ]
 .fourty[
-<p style="margin-top:0px">
+<p style="margin-top:-20px">
 <img src="img/grenzboten_text.svg" />
 </p>
 ]
