@@ -29,7 +29,7 @@ layout: true
       <td style="text-align:left">Abteilung Benutzung und Information</td>
     </tr>
     <tr>
-      <td style="font-size:8pt"><b>27.02.24</b></td>
+      <td style="font-size:8pt"><b>27. Februar 2024</b></td>
     </tr>
     <tr>
       <td style="font-size:8pt">DHd 2024</td>
