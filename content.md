@@ -107,7 +107,7 @@ count: false
 - Bildvorverarbeitung
 ]
 .fourty[
-<p style="margin-top:-80px">
+<p style="margin-top:0px">
 <img src="img/grenzboten_raw.svg" />
 </p>
 ]
@@ -124,7 +124,7 @@ count: false
 - Bildvorverarbeitung
 ]
 .fourty[
-<p style="margin-top:-80px">
+<p style="margin-top:0px">
 <img src="img/grenzboten_opt.svg" />
 </p>
 ]
@@ -142,7 +142,7 @@ count: false
 - Layoutanalyse
 ]
 .fourty[
-<p style="margin-top:-80px">
+<p style="margin-top:0px">
 <img src="img/grenzboten_opt.svg" />
 </p>
 ]
@@ -160,7 +160,7 @@ count: false
 - Layoutanalyse
 ]
 .fourty[
-<p style="margin-top:-80px">
+<p style="margin-top:0px">
 <img src="img/grenzboten_struct.svg" />
 </p>
 ]
@@ -181,7 +181,7 @@ count: false
         + Überschriften
 ]
 .fourty[
-<p style="margin-top:-80px">
+<p style="margin-top:0px">
 <img src="img/grenzboten_struct.svg" />
 </p>
 ]
@@ -207,7 +207,7 @@ count: false
         + Marginalien etc.
 ]
 .fourty[
-<p style="margin-top:-80px">
+<p style="margin-top:0px">
 <img src="img/grenzboten_struct.svg" />
 </p>
 ]
@@ -236,7 +236,7 @@ count: false
         + Tabellen etc.
 ]
 .fourty[
-<p style="margin-top:-80px">
+<p style="margin-top:0px">
 <img src="img/grenzboten_struct.svg" />
 </p>
 ]
@@ -266,11 +266,80 @@ count: false
 - Texterkennung
 ]
 .fourty[
-<p style="margin-top:-80px">
+<p style="margin-top:0px">
 <img src="img/grenzboten_text.svg" />
 </p>
 ]
 ]
+
+---
+
+# Prinzipien der automatischen Texterkennung
+
+- Erkennung erfolgt *zeilenweise*
+  1. **Skalierung:** einheitliche Höhe für alle Zeilen
+  2. **Merkmalsextraktion**: Raster mit festgelegter Anzahl (horizontaler) Zeilen und variabler Anzahl (vertikaler) Spalten → Zeilen als Sequenzen binärwertiger Vektoren fixer Länge
+<center><img src="img/grid.svg" width="800px"/></center>
+- kontextsensitive Erkennung über *Übergangswahrscheinlichkeiten* der Vektoren
+- Zerlegung der Seite in *Zeilen* notwendig
+- Vorgehen robuster gegenüber Varianz durch Artefakte als zeichenorientierte Ansätze
+- `Tesseract` (ab Version 4), `OCRopus`, `kraken`, `Calamari`
+  + Einsatz *neuronaler Netze* für die Sequenzklassifikation
+
+---
+
+# Prinzipien der automatischen Texterkennung
+
+- zentrales Verfahren des maschinellen Lernens (cf. e.g. [Xing et al. 2010](https://www.cs.sfu.ca/~jpei/publications/Sequence%20Classification.pdf))
+- basierend auf dem **Satz von Bayes**: `\(P(C|E) = \frac{P(E|C)\cdot P(C)}{P(E)}\)`
+- Rezept
+    + Man nehme
+        * eine **sehr große** Liste **manuell annotierter** Daten und
+        * einen **Trainingsalgorithmus**,
+    + modelliere eine **`n:n`-Beziehung** zwischen Eingabe und Ausgabe,
+        * e.g., jedes Eingabeelement (Buchstabe) wird auf eine Klasse abgebildet
+    + induziere ein **statistisches Modell**,
+    + und evaluiere dessen Qualität anhand von **Evaluationsdaten**
+
+---
+
+# Prinzipien der automatischen Texterkennung
+
+.cols[
+.sixty[
+- Übertragung auf OCR
+    + Daten
+        * manuell transkribierte Textzeilen
+    + Kodierung `\(f: \mathbb{N}^{10}\rightarrow\mathbb{B}\)` 
+      $$
+      f(x[n]) = \begin{cases} 1 & \text{Pixel in Zelle $(x,n)$ schwarz} \\\\
+      0 & \, \text{sonst}\end{cases}
+      $$ 
+    + Training
+        * Zählen von Sequenzen aus Vektor-Buchstabenteil-Paaren
+        * Berechnen von Wahrscheinlichkeiten
+        * Repräsentation als OCR-Modell
+]
+.thirty[
+<center>
+<img src="img/hi.png" style="width:150px"/>
+</center>
+```
+  0123456789
+0 1100001100
+1 1100001100
+2 1100001100 
+3 1100001100 
+4 1111111100 
+5 1111111100 
+6 1100001100
+7 1100001100
+8 1100001100 
+9 1100001100 
+```
+]
+]
+
 ---
 
 class: part-slide
