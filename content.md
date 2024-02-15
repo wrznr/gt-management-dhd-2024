@@ -64,6 +64,215 @@ count: false
 
 ---
 
+# Prinzipien der automatischen Texterkennung
+
+.cols[
+.sixty[
+- Bilderfassung ≠ Texterfassung
+- **O**ptical **C**haracter **R**ecognition: Automatische Erfassung von Text in Bildern
+- ursprünglich begrenzt auf Zeichenerkennung
+- heute häufig Synonym für den gesamten Texterfassungsprozess
+  + Bildvorverarbeitung
+  + Layoutanalyse (OLR)
+  + Zeilenerkennung
+  + ...
+]
+.fourty[
+<center><img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Codex_Manesse_127r.jpg" /></center>
+]
+]
+
+---
+
+# Prinzipien der automatischen Texterkennung
+
+.cols[
+.fifty[
+]
+.fourty[
+<p style="margin-top:-80px">
+<img src="img/grenzboten_raw.svg" />
+</p>
+]
+]
+
+---
+
+count: false
+
+# Prinzipien der automatischen Texterkennung
+
+.cols[
+.fifty[
+- Bildvorverarbeitung
+]
+.fourty[
+<p style="margin-top:-80px">
+<img src="img/grenzboten_raw.svg" />
+</p>
+]
+]
+
+---
+
+count: false
+
+# Prinzipien der automatischen Texterkennung
+
+.cols[
+.fifty[
+- Bildvorverarbeitung
+]
+.fourty[
+<p style="margin-top:-80px">
+<img src="img/grenzboten_opt.svg" />
+</p>
+]
+]
+
+---
+
+count: false
+
+# Prinzipien der automatischen Texterkennung
+
+.cols[
+.fifty[
+- Bildvorverarbeitung
+- Layoutanalyse
+]
+.fourty[
+<p style="margin-top:-80px">
+<img src="img/grenzboten_opt.svg" />
+</p>
+]
+]
+
+---
+
+count: false
+
+# Prinzipien der automatischen Texterkennung
+
+.cols[
+.fifty[
+- Bildvorverarbeitung
+- Layoutanalyse
+]
+.fourty[
+<p style="margin-top:-80px">
+<img src="img/grenzboten_struct.svg" />
+</p>
+]
+]
+
+---
+
+count: false
+
+# Prinzipien der automatischen Texterkennung
+
+.cols[
+.fifty[
+- Bildvorverarbeitung
+- Layoutanalyse
+    * **strukturierende** Elemente
+        + Absätze
+        + Überschriften
+]
+.fourty[
+<p style="margin-top:-80px">
+<img src="img/grenzboten_struct.svg" />
+</p>
+]
+]
+
+---
+
+count: false
+
+# Prinzipien der automatischen Texterkennung
+
+.cols[
+.fifty[
+- Bildvorverarbeitung
+- Layoutanalyse
+    * **strukturierende** Elemente
+        + Absätze
+        + Überschriften
+    * **textflussunterbrechende** Elemente
+        + Seitenzahlen
+        + Kolumnentitel
+        + Abbildungsunterschriften
+        + Marginalien etc.
+]
+.fourty[
+<p style="margin-top:-80px">
+<img src="img/grenzboten_struct.svg" />
+</p>
+]
+]
+
+---
+
+count: false
+
+# Prinzipien der automatischen Texterkennung
+
+.cols[
+.fifty[
+- Bildvorverarbeitung
+- Layoutanalyse
+    * **strukturierende** Elemente
+        + Absätze
+        + Überschriften
+    * **textflussunterbrechende** Elemente
+        + Seitenzahlen
+        + Kolumnentitel
+        + Abbildungsunterschriften
+        + Marginalien etc.
+    * **nichttextuelle** Elemente
+        + Abbildungen
+        + Tabellen etc.
+]
+.fourty[
+<p style="margin-top:-80px">
+<img src="img/grenzboten_struct.svg" />
+</p>
+]
+]
+
+---
+
+count: false
+
+# Prinzipien der automatischen Texterkennung
+
+.cols[
+.fifty[
+- Bildvorverarbeitung
+- Layoutanalyse
+    * **strukturierende** Elemente
+        + Absätze
+        + Überschriften
+    * **textflussunterbrechende** Elemente
+        + Seitenzahlen
+        + Kolumnentitel
+        + Abbildungsunterschriften
+        + Marginalien etc.
+    * **nichttextuelle** Elemente
+        + Abbildungen
+        + Tabellen etc.
+- Texterkennung
+]
+.fourty[
+<p style="margin-top:-80px">
+<img src="img/grenzboten_text.svg" />
+</p>
+]
+]
+---
+
 class: part-slide
 
 # Vielen Dank für Ihre Aufmerksamkeit!
