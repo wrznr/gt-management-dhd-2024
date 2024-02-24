@@ -69,7 +69,8 @@ count: false
 .cols[
 .sixty[
 - Bilderfassung ≠ Texterfassung
-- **O**ptical **C**haracter **R**ecognition: Automatische Erfassung von Text in Bildern
+- **O**ptical **C**haracter **R**ecognition:  
+  automatische Erkennung von Text in Bildern
 - ursprünglich begrenzt auf Zeichenerkennung
 - heute häufig Synonym für den gesamten Texterfassungsprozess
   + Bildvorverarbeitung
@@ -278,11 +279,11 @@ count: false
 
 - Erkennung erfolgt *zeilenweise*
   1. **Skalierung:** einheitliche Höhe für alle Zeilen
-  2. **Merkmalsextraktion**: Raster mit festgelegter Anzahl (horizontaler) Zeilen und variabler Anzahl (vertikaler) Spalten → Zeilen als Sequenzen binärwertiger Vektoren fixer Länge
+  2. **Merkmalsextraktion**: Raster mit fester Anzahl (horizontaler) Zeilen und variabler Anzahl (vertikaler) Spalten → Zeilen als Folgen binärwertiger Merkmalvektoren
 <center><img src="img/grid.svg" width="800px"/></center>
-- kontextsensitive Erkennung über *Übergangswahrscheinlichkeiten* der Vektoren
+- kontextsensitive Erkennung aus erlernten *Übergangswahrscheinlichkeiten* zwischen Vektoren
 - Zerlegung der Seite in *Zeilen* notwendig
-- Vorgehen robuster als zeichenorientierte Ansätze gegenüber Varianz durch Artefakte
+- robuster gegenüber Varianz durch Artefakte als Erkennung einzelner Zeichen
 - `Tesseract`, `OCRopus`, `Kraken`, `Calamari`
   + Einsatz *neuronaler Netze* für Bilderkennung und Folgeklassifikation
 
@@ -603,6 +604,8 @@ class: part-slide
 
 ## Auswertungsbsp.: Schreiber
 
+<div class="my-table">
+  
 | **Menge** | **Zeilen** | **CER [%]** | 
 | --- | --- | --- |
 | alles | 19618 | 1.6 |
@@ -620,7 +623,8 @@ class: part-slide
 | val Hand 13 | 447 | 0.9 |
 | train Hand 14 | 328 | 0.5 |
 | val Hand 14 | 59 | 2.9 |
-{: .my-table }
+
+</div>
 
 ---
 
