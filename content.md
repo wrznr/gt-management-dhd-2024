@@ -538,7 +538,7 @@ class: part-slide
 
 # Wege zur *Ground Truth*
 
-<!-- Prinzipien -->
+## Prinzipien
 
 - kollaboratives Arbeiten
   - Einteilung, Planung, Überwachung
@@ -576,9 +576,10 @@ class: part-slide
 
 - fester, randomisierter, repräsentativer **Schnitt**  
   (Lernstichprobe-Prüfstichprobe)
-- Training mit Überwachung von Trainings- und **Testfehlerrate**
+- Überwachung von Trainings- und **Testfehlerrate**  
   Optimierung der Hyperparameter
-- Prädiktion mit neuem Modell auf beiden Datenmengen, **Alignierung**
+- Anwendung des neuen Modells, **Alignierung**  
+  Vergleich Transkription-Prädiktion
 - Auswertungen...
 
 ---
@@ -588,19 +589,19 @@ class: part-slide
 ## Auswertungen
 
 - Ausreißer und Varianz  
-  → Fehler (Segmentierung oder Transkription) und Lücken
+  → Lücken und Fehler (in Segmentierung oder Transkription)
 - Konfusionstabelle, Kreuz-Histogramm  
-  → Konsistenz, Befolgung der Transkriptionsrichtlinien
+  → Konsistenz, Einhaltung der Transkriptionsrichtlinien
 - Unterschiede zwischen Prädiktion (OCR) und Transkription (GT)  
-  → Konsolidierung (Flüchtigkeitsfehler in GT, Schwachstellen in OCR)
+  → Konsolidierung (OCR-Schwachstellen, GT-Flüchtigkeitsfehler)
 - Aufteilung in bekannte Untermengen  
-   → Repräsentativität und Generalisierbarkeit (z.B. Hände, Materialität)
+   → Repräsentativität und Generalisierbarkeit (z.B. Schreiber, Materialität)
 
 ---
 
 # Trainingseffekte
 
-## Auswertungsbsp.: Hände
+## Auswertungsbsp.: Schreiber
 
 | **Menge** | **Zeilen** | **CER [%]** | 
 | --- | --- | --- |
@@ -619,6 +620,7 @@ class: part-slide
 | val Hand 13 | 447 | 0.9 |
 | train Hand 14 | 328 | 0.5 |
 | val Hand 14 | 59 | 2.9 |
+{: .my-table }
 
 ---
 
