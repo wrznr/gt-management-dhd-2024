@@ -18,7 +18,9 @@ pre { margin:0; padding:.5em; background:#f6f8fa }
 
 table { margin:auto; width:100% }
 thead { background:#eee }
-/*tbody tr:nth-child(even) { background:#f3f3f3 }*/
+
+.my-table { text-align: right }
+.my-table tbody tr:nth-child(even) { background:#f3f3f3 }
 
 ul > li > ul > li { font-size:1.4rem }
 ul > li > ol > li { font-size:1.4rem }
