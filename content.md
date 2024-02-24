@@ -282,22 +282,23 @@ count: false
 <center><img src="img/grid.svg" width="800px"/></center>
 - kontextsensitive Erkennung über *Übergangswahrscheinlichkeiten* der Vektoren
 - Zerlegung der Seite in *Zeilen* notwendig
-- Vorgehen robuster gegenüber Varianz durch Artefakte als zeichenorientierte Ansätze
-- `Tesseract`, `OCRopus`, `kraken`, `Calamari`
-  + Einsatz *neuronaler Netze* für die Sequenzklassifikation
+- Vorgehen robuster als zeichenorientierte Ansätze gegenüber Varianz durch Artefakte
+- `Tesseract`, `OCRopus`, `Kraken`, `Calamari`
+  + Einsatz *neuronaler Netze* für Bilderkennung und Folgeklassifikation
 
 ---
 
 # Prinzipien der automatischen Texterkennung
 
-- zentrales Verfahren des maschinellen Lernens (cf. e.g. [Xing et al. 2010](https://www.cs.sfu.ca/~jpei/publications/Sequence%20Classification.pdf))
+- zentrales Verfahren des maschinellen Lernens  
+  (cf. e.g. [Xing et al. 2010](https://www.cs.sfu.ca/~jpei/publications/Sequence%20Classification.pdf))
 - basierend auf dem **Satz von Bayes**: `\(P(C|E) = \frac{P(E|C)\cdot P(C)}{P(E)}\)`
 - Rezept
     + Man nehme
         * eine **sehr große** Liste **manuell annotierter** Daten und
         * einen **Trainingsalgorithmus**,
     + modelliere eine **`n:n`-Beziehung** zwischen Eingabe und Ausgabe,
-        * e.g., jedes Eingabeelement (Buchstabe) wird auf eine Klasse abgebildet
+        * z.B. jedes Eingabeelement (Zeichen) wird auf eine Klasse abgebildet
     + induziere ein **statistisches Modell**,
     + und evaluiere dessen Qualität anhand von **Evaluationsdaten**
 
@@ -316,7 +317,7 @@ count: false
       0 & \, \text{sonst}\end{cases}
       $$ 
     + Training
-        * Zählen von Sequenzen aus Vektor-Buchstabenteil-Paaren
+        * Zählen von Paaren aus Vektorfolgen und Zeichenfolgen
         * Berechnen von Wahrscheinlichkeiten
         * Repräsentation als OCR-Modell
 ]
@@ -425,26 +426,26 @@ den Nacht begegnen könnte, in Gnaden bewahren
 # Prinzipien der automatischen Texterkennung
 
 - einheitliches Paradigma für automatische Erkennung  
-  von Handschrift und Druck (und Noten etc.)
+  von Druck und **Handschrift** (und Noten etc.)
   + Training: auf Zeilenebene zugeordnete Bild-Text-Paare
-- jedoch höhere Varianz bei Handschriften…
+- bei Handschriften jedoch höhere **Varianz**…
   + Gestalt (Hand vs. Schriftart)
   + Materialität (Stift, Feder, Papier, Presse)
   + Aufwand (Notiz, Brief, Zeitung, Festschrift ...)
 
 .cols[
-.fourty[
-<center>
-<img src="img/line_hand1.png" width="290px" />
-<img src="img/line_hand2.png" width="290px" />
-<img src="img/line_hand3.png" width="290px" />
-</center>
-]
 .sixty[
 <center>
 <img src="img/line_print1.png" style="width: 450px" />
 <img src="img/line_print2.png" style="width: 450px" />
 <img src="img/line_print3.png" style="width: 450px" />
+</center>
+]
+.fourty[
+<center>
+<img src="img/line_hand1.png" width="290px" />
+<img src="img/line_hand2.png" width="290px" />
+<img src="img/line_hand3.png" width="290px" />
 </center>
 ]
 ]
@@ -453,10 +454,10 @@ den Nacht begegnen könnte, in Gnaden bewahren
 
 # Prinzipien der automatischen Texterkennung
 
-- Trainingsdatenquantität
+- Trainingsdaten-Quantität bei Handschrift
   + größere Menge an Trainingsdaten (intra-individuelle Varianz)
   + schlechtere Übertragbarkeit trainierter Modelle (inter-individuelle Varianz)
-- Trainingsdatenqualität
+- Trainingsdaten-Qualität bei Handschrift
   + (teilweise) schwerer zu lesendes Ausgangsmaterial
   + komplexe Aufbereitung für Training wegen aufwendigerer Segmentierung
 
@@ -473,10 +474,10 @@ count: false
 
 # Prinzipien der automatischen Texterkennung
 
-- Trainingsdatenquantität
+- Trainingsdaten-Quantität bei Handschrift
   + größere Menge an Trainingsdaten (intra-individuelle Varianz)
   + schlechtere Übertragbarkeit trainierter Modelle (inter-individuelle Varianz)
-- Trainingsdatenqualität
+- Trainingsdaten-Qualität bei Handschrift
   + (teilweise) schwerer zu lesendes Ausgangsmaterial
   + komplexe Aufbereitung für Training wegen aufwendigerer Segmentierung
 
@@ -493,10 +494,10 @@ count: false
 
 # Prinzipien der automatischen Texterkennung
 
-- Trainingsdatenquantität
+- Trainingsdaten-Quantität bei Handschrift
   + größere Menge an Trainingsdaten (intra-individuelle Varianz)
   + schlechtere Übertragbarkeit trainierter Modelle (inter-individuelle Varianz)
-- Trainingsdatenqualität
+- Trainingsdaten-Qualität bei Handschrift
   + (teilweise) schwerer zu lesendes Ausgangsmaterial
   + komplexe Aufbereitung für Training wegen aufwendigerer Segmentierung
 
@@ -513,10 +514,10 @@ count: false
 
 # Prinzipien der automatischen Texterkennung
 
-- Trainingsdatenquantität
+- Trainingsdaten-Quantität bei Handschrift
   + größere Menge an Trainingsdaten (intra-individuelle Varianz)
   + schlechtere Übertragbarkeit trainierter Modelle (inter-individuelle Varianz)
-- Trainingsdatenqualität
+- Trainingsdaten-Qualität bei Handschrift
   + (teilweise) schwerer zu lesendes Ausgangsmaterial
   + komplexe Aufbereitung für Training wegen aufwendigerer Segmentierung
 
@@ -532,6 +533,34 @@ count: false
 class: part-slide
 
 # Wege zur *Ground Truth*
+
+---
+
+# Wege zur *Ground Truth*
+
+<!-- Prinzipien -->
+
+- kollaboratives Arbeiten
+  - Einteilung, Planung, Überwachung
+  - Spezialisierung in Teilaufgaben
+  - gegenseitiges Überprüfen (Double Keying)
+- manuellen Anteil minimieren:
+  - automatische Layoutanalyse – nur Segmente korrigieren
+  - automatische Zeichenerkennung – nur Transkription korrigieren
+- iteratives Vorgehen (besseres Modell für nächste Daten)
+
+---
+
+# Wege zur *Ground Truth*
+
+- Workflows...
+- Tools...
+
+---
+
+class: part-slide
+
+# Forschungsdatenmanagement für OCR-Trainingsdaten
 
 ---
 
