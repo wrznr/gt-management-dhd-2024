@@ -566,6 +566,64 @@ class: part-slide
 
 class: part-slide
 
+# Trainingseffekte
+
+---
+
+# Trainingseffekte
+
+## Vorgehen
+
+- fester, randomisierter, repräsentativer **Schnitt**  
+  (Lernstichprobe-Prüfstichprobe)
+- Training mit Überwachung von Trainings- und **Testfehlerrate**
+  Optimierung der Hyperparameter
+- Prädiktion mit neuem Modell auf beiden Datenmengen, **Alignierung**
+- Auswertungen...
+
+---
+
+# Trainingseffekte
+
+## Auswertungen
+
+- Ausreißer und Varianz  
+  → Fehler (Segmentierung oder Transkription) und Lücken
+- Konfusionstabelle, Kreuz-Histogramm  
+  → Konsistenz, Befolgung der Transkriptionsrichtlinien
+- Unterschiede zwischen Prädiktion (OCR) und Transkription (GT)  
+  → Konsolidierung (Flüchtigkeitsfehler in GT, Schwachstellen in OCR)
+- Aufteilung in bekannte Untermengen  
+   → Repräsentativität und Generalisierbarkeit (z.B. Hände, Materialität)
+
+---
+
+# Trainingseffekte
+
+## Auswertungsbsp.: Hände
+
+| **Menge** | **Zeilen** | **CER [%]** | 
+| --- | --- | --- |
+| alles | 19618 | 1.6 |
+| train | 17622 | 1.4 |
+| val | 1996 | 3.3 |
+| train Hand 1 | 710 | **5.1** |
+| val Hand 1 | 64 | 3.1 |
+| train Hand 3 | 3179 | 2.8 |
+| val Hand 3 | 447 | 3.9 |
+| train Hand 4 | 1650 | 2.9 |
+| val Hand 4 | 313 | **8.3** |
+| train Hand 11 | 474 | **0.3** |
+| val Hand 11 | 142 | 2.5 |
+| train Hand 13 | 3926 | 0.2 |
+| val Hand 13 | 447 | 0.9 |
+| train Hand 14 | 328 | 0.5 |
+| val Hand 14 | 59 | 2.9 |
+
+---
+
+class: part-slide
+
 # Vielen Dank für Ihre Aufmerksamkeit!
 
 <center>
