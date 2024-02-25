@@ -694,6 +694,8 @@ count: false
 <div class="fourty">
 <center>
 
+<div class="my-table"/>
+
 <table data-sourcepos="697:1-709:24">
 <thead>
 <tr data-sourcepos="697:1-697:38">
@@ -794,7 +796,7 @@ count: false
 <div class="sixty">
 <center>
 
-<img src="https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/cfb69f99-d929-4750-a5a2-8e661822d20b" alt="larex-diff-long-round-s"/>
+<img src="https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/cfb69f99-d929-4750-a5a2-8e661822d20b" alt="larex-diff-long-round-s" width="60%"/>
 
 <!--
 ![larex-diff-long-round-s](https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/cfb69f99-d929-4750-a5a2-8e661822d20b)
