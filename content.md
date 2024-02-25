@@ -562,28 +562,49 @@ count: false
 
 ---
 
+count: false
+
 # Wege zur *Ground Truth*
 
-- grundlegende Prinzipien
-    * kollaboratives Arbeiten
-        + Einteilung, Planung, Überwachung
-        + Spezialisierung in Teilaufgaben
-        + gegenseitiges Überprüfen (*Double Keying*)
-    * manuellen Anteil minimieren
-        + automatische Layoutanalyse – nur Segmente korrigieren
-        + automatische Zeichenerkennung – nur Transkription korrigieren
-    * iteratives Vorgehen  
-        + besseres Modell für jeweils nächste Daten
-    * **offene Datenkultur**
+.cols[
+.sixty[
+- Ziel: (nahezu) fehlerfrei transkribierte Volltexte **und** deren Lokalisierung auf dem entsprechenden Digitalisiat
+    * Unterteilung in drei jeweils distinkte Teile
+        + (80 %) **Trainingsdaten**: Schätzung der **Modellparameter** (e.g. Übergangswahrscheinlichkeiten)
+        + (10 %) **Validierungsdaten**: Schätzung der **Hyperparameter** (e.g. Modellarchitektur)
+        + (10 %) **Testdaten**: Überprüfung der **Güte** der Schätzung
+- Rezept
+    * Zeilen markieren
+    * Text abschreiben
+    * Ground Truth extrahieren
+]
+.fourty[
+LAREX-Screenshot
+]
+]
 
 ---
 
-# Wege zur *Ground Truth*
+# Wege zur *Ground Truth*: grundlegende Prinzipien
 
-- Workflow-Illustration
-    * manuelle Segmentierung weniger fehleranfällig dafür sehr zeitaufwendig
-    * Transkription im Double-Keying-Verfahren
-    * Vereinigung typischerweise durch Differenzauflösung oder bei mehr als zwei Transkriptionen via Mehrheitsentscheid
+* kollaboratives Arbeiten
+    + Einteilung, Planung, Überwachung
+    + Spezialisierung in Teilaufgaben
+    + gegenseitiges Überprüfen (*Double Keying*)
+* manuellen Anteil minimieren
+    + automatische Layoutanalyse – nur Segmente korrigieren
+    + automatische Zeichenerkennung – nur Transkription korrigieren
+* iteratives Vorgehen  
+    + besseres Modell für jeweils nächste Daten
+* **offene Datenkultur**
+
+---
+
+# Wege zur *Ground Truth*: Workflows
+
+* manuelle Segmentierung weniger fehleranfällig dafür sehr zeitaufwendig
+* Transkription im Double-Keying-Verfahren
+* Vereinigung typischerweise durch Differenzauflösung oder bei mehr als zwei Transkriptionen via Mehrheitsentscheid
 
 <center>
 <a href="img/Normalvorgehen.svg"><img src="img/Normalvorgehen.svg" width="950px" /></a>
@@ -591,14 +612,16 @@ count: false
 
 ---
 
-# Wege zur *Ground Truth*
+# Wege zur *Ground Truth*: Werkzeuge
 
-- Werkzeuge
-    * Texteditor und Graphikprogramm bzw. spezialisierte Tools, z.B.
-        + [OCR4all](https://www.ocr4all.org/)
-        + [eScriptorium](https://escriptorium.openiti.org/)
-        + [Aletheia](https://www.primaresearch.org/tools/Aletheia)
-    * **Publikationsinfrastruktur**: [HTR-United](https://htr-united.github.io/)
+* Texteditor und Graphikprogramm bzw. spezialisierte Tools, z.B.
+    + [OCR4all](https://www.ocr4all.org/)
+    + [eScriptorium](https://escriptorium.openiti.org/)
+    + [Aletheia](https://www.primaresearch.org/tools/Aletheia)
+* **Publikationsinfrastruktur**
+    + [HTR-United](https://htr-united.github.io/)
+    + [Zenodo](https://zenodo.org/communities/ocr_models/records)
+    + [OCR-D-GT](https://github.com/OCR-D/gt-repo-template)
 
 
 ---
@@ -643,6 +666,10 @@ count: false
 # Wege zur *Ground Truth*
 
 - [Aletheia](https://www.primaresearch.org/tools/Aletheia)
+
+<center>
+<img src="https://cdn.wpmeducation.com/53544f/9b62a1e054/3B44-311A-423B-9F17-A3D4.jpg" width="650px" />
+</center>
 
 ---
 
@@ -721,9 +748,7 @@ count: false
 
 ---
 
-# Trainingseffekte
-
-## Vorgehen
+# Trainingseffekte: Vorgehen
 
 - repräsentative **Auswahl** der Ground-Truth  
   (ggf. Mischung mehrerer Quellen/Dokumente)
@@ -737,9 +762,7 @@ count: false
 
 ---
 
-# Trainingseffekte
-
-## Training
+# Trainingseffekte: Training
 
 .cols[
 .fourty[
@@ -747,7 +770,8 @@ count: false
 - Vorverarbeitung, Bereinigung, Normalisierung ...
 - Bsp. [randomisierter Schnitt](https://github.com/bertsky/test-gt/wiki/Splitting-Dataset)
 - Bsp. [Trainingsprozedur Kraken](https://github.com/bertsky/test-gt/wiki/Kraken-Training)
-- Bsp. [Trainingsprozedur Calamari1](https://github.com/bertsky/test-gt/wiki/Kraken-Calamari1)
+- Bsp. [Trainingsprozedur Calamari1](https://github.com/bertsky/test-gt/wiki/Calamari1-Training)
+- Bsp. [Trainingsprozedur Tesseract](https://github.com/bertsky/test-gt/wiki/Tesseract-Training)
 
 ]
 .sixty[
@@ -759,9 +783,7 @@ count: false
 
 ---
 
-# Trainingseffekte
-
-## Auswertungen
+# Trainingseffekte: Auswertungen
 
 - Ausreißer und Varianz  
   → Lücken und Fehler (in Segmentierung oder Transkription)
@@ -774,17 +796,13 @@ count: false
 
 ---
 
-# Trainingseffekte
-
-## Auswertungsbsp.: Segmentierungsfehler
+# Trainingseffekte: Auswertungsbsp. *Segmentierungsfehler*
 
 ![larex-lines-coords-err](https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/d2f27128-71ed-426f-89a8-ccae6ec4611b)
 
 ---
 
-# Trainingseffekte
-
-## Auswertungsbsp.: Transkriptionsrichtlinien
+# Trainingseffekte: Auswertungsbsp. *Transkriptionsrichtlinien*
 
 
 ![larex-view-insert](https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/5d51358b-e787-489d-ab84-52d49c3c4d32)
@@ -792,17 +810,13 @@ count: false
 
 ---
 
-# Trainingseffekte
-
-## Auswertungsbsp.: Transkriptionsfehler
+# Trainingseffekte: Auswertungsbsp. *Transkriptionsfehler*
 
 <img src="https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/8739470d-a621-4127-bd5a-92655890405d" alt="larex-diff-misaligned" width="50%"/>
 
 ---
 
-# Trainingseffekte
-
-## Auswertungsbsp.: Verwechslung von `s` und `ſ`
+# Trainingseffekte: Auswertungsbsp. *Verwechslung von `s` und `ſ`*
 
 <div class="cols">
 <div class="fourty">
@@ -946,6 +960,27 @@ count: false
 | train Hand 14 | 328 | 0.5 |
 | val Hand 14 | 59 | 2.9 |
 
+---
+
+class: part-slide
+count: false
+
+# Wege zur *Ground Truth* revisited
+
+---
+
+# Wege zur *Ground Truth* revisited
+
+- vorhandenes, aber nicht aligniertes Textmaterial
+    + Soldatenbriefe
+- Einbindung von Freiwilligen
+    * Podcasts
+    * forced Alignment
+- Rollenmodell
+    * Venn Diagram
+- Datenkultur (Vgl. Transkribus)
+    * Schnittstellen- und Plattformneutralität
+    * OCR-D
 
 ---
 
