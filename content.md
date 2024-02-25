@@ -571,7 +571,8 @@ class: part-slide
 
 1. auf Github.com anmelden
 2. [GT-Repo-Template](https://github.com/OCR-D/gt-repo-template) benutzen
-3. ein oder mehrere Datenpakete herunterladen und entpacken:
+3. ein oder mehrere Datenpakete herunterladen und entpacken:  
+
    | --- | --- | --- | --- |
    | [GN_1765_1_GN_A_109](https://datashare.tu-dresden.de/s/HXJZATYJjqtK5mT)   | [GN_1771_4_GN_A_158](https://datashare.tu-dresden.de/s/SdkxJECoFLBTQ6W)   | [GN_1774_3_GN_A_171](https://datashare.tu-dresden.de/s/iz3BWgTd7omokHL)   | [GN_1806_4_GN_A_354](https://datashare.tu-dresden.de/s/Qk5CcMMsSB4TcBJ) |
    | [GN_1765_2_GN_A_110](https://datashare.tu-dresden.de/s/8Crrz3n7fYmEsm2)   | [GN_1773_3_GN_A_167](https://datashare.tu-dresden.de/s/k6jB9ptiSCXoNCZ)   | [GN_1788_5_GN_A_250](https://datashare.tu-dresden.de/s/HkD5moecjHwMkQk)   | [GN_1807_1_GN_A_355](https://datashare.tu-dresden.de/s/BQ8Jj8kcWcqxxTA) |
