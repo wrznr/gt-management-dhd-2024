@@ -618,6 +618,7 @@ LAREX-Screenshot
     + [OCR4all](https://www.ocr4all.org/)
     + [eScriptorium](https://escriptorium.openiti.org/)
     + [Aletheia](https://www.primaresearch.org/tools/Aletheia)
+    + [Transkribus](https://readcoop.eu/de/transkribus/)
 * **Publikationsinfrastruktur**
     + [HTR-United](https://htr-united.github.io/)
     + [Zenodo](https://zenodo.org/communities/ocr_models/records)
@@ -675,7 +676,24 @@ count: false
 
 # Wege zur *Ground Truth*
 
+- [Transkribus](https://readcoop.eu/de/transkribus/)
+
+---
+
+# Wege zur *Ground Truth*
+
 - Werkzeugvergleich
+    + Versionsverwaltung problematisieren
+    + Features
+        * Offenheit: Quellcodes, Daten, Modelle, Betriebs
+        * automatische Erkennung Text bzw. Layout
+        * Trainingsmöglichkeiten Text bzw. Layout
+        * Datenformate
+        * Kollaboration
+        * Versionskontrolle
+        * Adressierbarkeit
+        * Durchsuchbarkeit
+        * persistente Identifizierung
 
 ---
 
