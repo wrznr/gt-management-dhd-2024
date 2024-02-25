@@ -599,7 +599,31 @@ count: false
 
 # Wege zur *Ground Truth*
 
-- OCR4all
+- [OCR4all](https://www.ocr4all.org/)
+    * Software zur Struktur- und Volltexterstellung
+    * unterstützt manuelle und automatische Bearbeitungen auf Seitenebene
+    * bündelt Calamari und Tesseract als OCR-Engines
+    * sowie LAREX als GT-Editor
+
+<center>
+<img src="https://www.ocr4all.org/images/user-guide/project_start_and_overview/project_overview_settings.jpg" width="850px" />
+</center>
+
+---
+
+count: false
+
+# Wege zur *Ground Truth*
+
+- [OCR4all](https://www.ocr4all.org/)
+    * Software zur Struktur- und Volltexterstellung
+    * unterstützt manuelle und automatische Bearbeitungen auf Seitenebene
+    * bündelt Calamari und Tesseract als OCR-Engines
+    * sowie LAREX als GT-Editor
+
+<center>
+<img src="https://www.ocr4all.org/images/user-guide/workflow/LAREX_interface_with_automatic_segmentation_results.png" width="850px" />
+</center>
 
 ---
 
