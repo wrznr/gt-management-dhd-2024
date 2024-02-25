@@ -575,41 +575,41 @@ class: part-slide
    <table>
    <tr>
      <td> 
-       [GN_1765_1_GN_A_109](https://datashare.tu-dresden.de/s/HXJZATYJjqtK5mT)
+       <a href="https://datashare.tu-dresden.de/s/HXJZATYJjqtK5mT">GN_1765_1_GN_A_109</a>
       </td>
      <td>
-       [GN_1771_4_GN_A_158](https://datashare.tu-dresden.de/s/SdkxJECoFLBTQ6W)
+       <a href="https://datashare.tu-dresden.de/s/SdkxJECoFLBTQ6W">GN_1771_4_GN_A_158</a>
      </td>
      <td>
-       [GN_1774_3_GN_A_171](https://datashare.tu-dresden.de/s/iz3BWgTd7omokHL)
+       <a href="https://datashare.tu-dresden.de/s/iz3BWgTd7omokHL">GN_1774_3_GN_A_171</a>
       </td>
       <td>
-        [GN_1806_4_GN_A_354](https://datashare.tu-dresden.de/s/Qk5CcMMsSB4TcBJ)
+       <a href="https://datashare.tu-dresden.de/s/Qk5CcMMsSB4TcBJ">GN_1806_4_GN_A_354</a>
       </td>  
    </tr>
    <tr>
     <td>
-     [GN_1765_2_GN_A_110](https://datashare.tu-dresden.de/s/8Crrz3n7fYmEsm2)
+     <a href="https://datashare.tu-dresden.de/s/8Crrz3n7fYmEsm2">GN_1765_2_GN_A_110</a>
     </td>
     <td>
-      [GN_1773_3_GN_A_167](https://datashare.tu-dresden.de/s/k6jB9ptiSCXoNCZ)
+      <a href=""https://datashare.tu-dresden.de/s/k6jB9ptiSCXoNCZ">GN_1773_3_GN_A_167</a>
     </td>
     <td>
-      [GN_1788_5_GN_A_250](https://datashare.tu-dresden.de/s/HkD5moecjHwMkQk)
+      <a href="https://datashare.tu-dresden.de/s/HkD5moecjHwMkQk">GN_1788_5_GN_A_250</a>
     </td>
     <td>
-      [GN_1807_1_GN_A_355](https://datashare.tu-dresden.de/s/BQ8Jj8kcWcqxxTA)
+      <a href="https://datashare.tu-dresden.de/s/BQ8Jj8kcWcqxxTA">GN_1807_1_GN_A_355</a>
     </td>  
    </tr>
    <tr>
      <td>
-      [GN_1770_2_GN_A_148](https://datashare.tu-dresden.de/s/JwfRKSEprykdkTK)
+      <a href="https://datashare.tu-dresden.de/s/JwfRKSEprykdkTK">GN_1770_2_GN_A_148</a>
      </td>
      <td>
-       [GN_1774_2_GN_A_170](https://datashare.tu-dresden.de/s/qZr7gACfAzePzmi)
+      <a href="https://datashare.tu-dresden.de/s/qZr7gACfAzePzmi">GN_1774_2_GN_A_170</a>
      </td>
      <td>
-       [GN_1806_1_GN_A_351](https://datashare.tu-dresden.de/s/E8RxqcgXXEFFXbx)
+      <a href="https://datashare.tu-dresden.de/s/E8RxqcgXXEFFXbx">GN_1806_1_GN_A_351</a>
      </td>  
    </tr>  
    </table>
