@@ -655,7 +655,7 @@ count: false
 # FDM für OCR-Trainingsdaten
 
 1. auf Github.com anmelden
-2. [GT-Repo-Template](https://github.com/OCR-D/gt-repo-template) benutzen
+2. [OCR-D/GT-Repo-Template](https://github.com/OCR-D/gt-repo-template) benutzen
 3. ein oder mehrere Datenpakete herunterladen und entpacken:
    <table style="font-size: small; text-align: left">
    <tr>
@@ -677,7 +677,7 @@ count: false
      <a href="https://datashare.tu-dresden.de/s/8Crrz3n7fYmEsm2">GN_1765_2_GN_A_110</a>
     </td>
     <td>
-      <a href=""https://datashare.tu-dresden.de/s/k6jB9ptiSCXoNCZ">GN_1773_3_GN_A_167</a>
+      <a href="https://datashare.tu-dresden.de/s/k6jB9ptiSCXoNCZ">GN_1773_3_GN_A_167</a>
     </td>
     <td>
       <a href="https://datashare.tu-dresden.de/s/HkD5moecjHwMkQk">GN_1788_5_GN_A_250</a>
@@ -718,13 +718,29 @@ count: false
 
 ## Vorgehen
 
-- fester, randomisierter, repräsentativer **Schnitt**  
+- repräsentative **Auswahl** Ground-Truth  
+  (ggf. Mischung mehrerer Quellen/Dokumente)
+- fester, randomisierter **Schnitt**  
   (Lernstichprobe-Prüfstichprobe)
 - Überwachung von Trainings- und **Testfehlerrate**  
   Optimierung der Hyperparameter
 - Anwendung des neuen Modells, **Alignierung**  
   Vergleich Transkription-Prädiktion
 - Auswertungen...
+
+---
+
+# Trainingseffekte
+
+## Training
+
+- Vorverarbeitung/Bereinigung/Normalisierung ...
+- Bsp. [randomisierter Schnitt](https://github.com/bertsky/test-gt/wiki/Splitting-Dataset)
+- Bsp. [Trainingsprozedur Kraken](https://github.com/bertsky/test-gt/wiki/Kraken-Training)
+- Bsp. [Trainingsprozedur Calamari1](https://github.com/bertsky/test-gt/wiki/Kraken-Calamari1)
+
+![metrics](https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/af6fe568-8edc-415a-9588-aaaa666cc82c)
+
 
 ---
 
