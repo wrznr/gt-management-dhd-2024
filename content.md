@@ -634,8 +634,8 @@ count: false
 # Wege zur *Ground Truth*: [OCR4all](https://www.ocr4all.org/)
 
 * Software zur Struktur- und Volltexterstellung
-* unterstützt manuelle und automatische Bearbeitungen auf Seitenebene
-* bündelt Calamari und Tesseract als OCR-Engines sowie LAREX als GT-Editor
+* manuelle und automatische Annotation, Training
+* mit Calamari und Tesseract als OCR-Engines, LAREX als GT-Editor
 
 <center>
 <img src="https://www.ocr4all.org/images/user-guide/project_start_and_overview/project_overview_settings.jpg" width="650px" />
@@ -648,8 +648,8 @@ count: false
 # Wege zur *Ground Truth*: [OCR4all](https://www.ocr4all.org/)
 
 * Software zur Struktur- und Volltexterstellung
-* unterstützt manuelle und automatische Bearbeitungen auf Seitenebene
-* bündelt Calamari und Tesseract als OCR-Engines sowie LAREX als GT-Editor
+* manuelle und automatische Annotation, Training
+* mit Calamari und Tesseract als OCR-Engines, LAREX als GT-Editor
 
 <center>
 <img src="https://www.ocr4all.org/images/user-guide/workflow/LAREX_interface_with_automatic_segmentation_results.png" width="650px" />
@@ -662,8 +662,8 @@ count: false
 # Wege zur *Ground Truth*: [OCR4all](https://www.ocr4all.org/)
 
 * Software zur Struktur- und Volltexterstellung
-* unterstützt manuelle und automatische Bearbeitungen auf Seitenebene
-* bündelt Calamari und Tesseract als OCR-Engines sowie LAREX als GT-Editor
+* manuelle und automatische Annotation, werkspez. Training
+* mit Calamari und Tesseract als OCR-Engines, LAREX als GT-Editor
 
 <center>
 <img src="https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/3e95b7c3-3b16-43fc-8f64-0c1c76cc5b84" alt="larex-transcription" width="650px" />
@@ -675,12 +675,14 @@ count: false
 # Wege zur *Ground Truth*: [eScriptorium](https://escriptorium.openiti.org/)
 
 * Software zur Struktur- und Volltexterstellung
-* unterstützt manuelle und automatische Bearbeitungen auf Seitenebene und werkspezifisches Training
-* bündelt Kraken als OCR-Engine, enthält webbasierten GT-Editor
+* manuelle und automatische Annotation, werkspez. Training
+* mit Kraken als OCR-Engine, enthält GT-Editor
 
 ---
 
 # Wege zur *Ground Truth*: [Aletheia](https://www.primaresearch.org/tools/Aletheia)
+
+* vollständiger GT-Editor für PAGE-XML
 
 <center>
 <img src="https://cdn.wpmeducation.com/53544f/9b62a1e054/3B44-311A-423B-9F17-A3D4.jpg" width="450px" />
@@ -691,7 +693,7 @@ count: false
 # Wege zur *Ground Truth*: [Transkribus](https://readcoop.eu/de/transkribus/)
 
 <center>
-  <img src="https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/6c7c7fd5-e86b-40ce-8eb6-df99e27acc60" alt="transkribus_desktop"/>
+  <img src="https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/6c7c7fd5-e86b-40ce-8eb6-df99e27acc60" alt="transkribus_desktop" width="60%"/>
 </center>
 
 <table>
@@ -709,17 +711,18 @@ count: false
 
 # Wege zur *Ground Truth*: Werkzeuge im Vergleich
 
-    + Versionsverwaltung problematisieren
-    + Features
-        * Offenheit: Quellcodes, Daten, Modelle, Betriebs
-        * automatische Erkennung Text bzw. Layout (Vorverarbeitung)
-        * Trainingsmöglichkeiten Text bzw. Layout
-        * Datenformate
-        * Kollaboration
-        * Versionskontrolle
-        * Adressierbarkeit
-        * Durchsuchbarkeit
-        * persistente Identifizierung
++ Versionsverwaltung problematisieren
++ Features
+    * Offenheit: Quellcodes, Daten, Modelle, Betriebs
+    * automatische Erkennung Text bzw. Layout
+    * Trainingsmöglichkeiten Text bzw. Layout
+    * Datengranularität
+    * Datenformate
+    * Kollaboration
+    * Versionskontrolle
+    * Adressierbarkeit
+    * Durchsuchbarkeit
+    * persistente Identifizierung
 
 ---
 
@@ -782,7 +785,7 @@ count: false
 7. eine Release `v1.0.0` anlegen und Github Action abwarten
 8. Deployment ansehen und Release-Assets herunterladen
 9. (`METADATA.yml` bei [HTR-United](https://htr-united.github.io/#provide-data) 
-   per [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) 
+   per [PR](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) 
    [registrieren](https://github.com/HTR-United/htr-united/tree/master/catalog))
 
 ---
