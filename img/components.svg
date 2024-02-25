@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:xhtml="http://www.w3.org/1999/xhtml"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="496px"
+   height="482px"
+   viewBox="-0.5 -0.5 496 482"
+   animation="{&quot;scriptArr&quot;:[]}"
+   content="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12solQcd"
+   id="svg573"
+   sodipodi:docname="components.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata577">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1916"
+     inkscape:window-height="1161"
+     id="namedview575"
+     showgrid="false"
+     inkscape:zoom="1.384873"
+     inkscape:cx="164.5648"
+     inkscape:cy="245.60164"
+     inkscape:window-x="1920"
+     inkscape:window-y="37"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g211" />
+  <defs
+     id="defs6">
+    <style
+       type="text/css"
+       id="style2">ul { margin-top: 0px; margin-bottom: 10px; }
+ol { margin-top: 0px; margin-bottom: 10px; }
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 { margin-bottom: .5rem; font-weight: 500; line-height: 1.2; }
+h1, h2, h3, h4, h5, h6 { margin-top: 0; margin-bottom: .5rem; }
+.h1, h1 { font-size: 2.5rem; }
+h2 { font-size: 1.5em; font-weight: bold; }
+h3 { font-size: 1.17em; font-weight: bold; }
+.h4, h4 { font-size: 1.5rem; }
+.h5, h5 { font-size: 1.25rem; }
+.h6, h6 { font-size: 1rem; }
+p { margin-top: 0; margin-bottom: 1rem; }
+a { color: #007bff; }
+ul { margin-top: 0px; margin-bottom: 10px; }
+ol { margin-top: 0px; margin-bottom: 10px; }
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 { margin-bottom: .5rem; font-weight: 500; line-height: 1.2; }
+h1, h2, h3, h4, h5, h6 { margin-top: 0; margin-bottom: .5rem; }
+.h1, h1 { font-size: 2.5rem; }
+h2 { font-size: 1.5em; font-weight: bold; }
+h3 { font-size: 1.17em; font-weight: bold; }
+.h4, h4 { font-size: 1.5rem; }
+.h5, h5 { font-size: 1.25rem; }
+.h6, h6 { font-size: 1rem; }
+p { margin-top: 0; margin-bottom: 1rem; }
+a { color: #007bff; }
+ul { margin-top: 0px; margin-bottom: 10px; }
+ol { margin-top: 0px; margin-bottom: 10px; }
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 { margin-bottom: .5rem; font-weight: 500; line-height: 1.2; }
+h1, h2, h3, h4, h5, h6 { margin-top: 0; margin-bottom: .5rem; }
+.h1, h1 { font-size: 2.5rem; }
+h2 { font-size: 1.5em; font-weight: bold; }
+h3 { font-size: 1.17em; font-weight: bold; }
+.h4, h4 { font-size: 1.5rem; }
+.h5, h5 { font-size: 1.25rem; }
+.h6, h6 { font-size: 1rem; }
+p { margin-top: 0; margin-bottom: 1rem; }
+a { color: #007bff; }
+</style>
+    <style
+       type="text/css"
+       id="style4">@import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap);
+</style>
+  </defs>
+  <g
+     id="g211">
+    <circle
+       cell-id="LOOagIU03v3qrGbjAb5M-2"
+       cx="170"
+       cy="309"
+       pointer-events="all"
+       id="ellipse8"
+       r="170"
+       style="fill:#2682d5;fill-opacity:0.4;stroke:#68bbc3" />
+    <circle
+       cell-id="LOOagIU03v3qrGbjAb5M-3"
+       cx="325"
+       cy="311"
+       pointer-events="all"
+       id="ellipse10"
+       r="170"
+       style="fill:#8cc86e;fill-opacity:0.4;stroke:#8bc057" />
+    <circle
+       cell-id="LOOagIU03v3qrGbjAb5M-4"
+       cx="240"
+       cy="170"
+       pointer-events="all"
+       id="ellipse12"
+       r="170"
+       style="fill:#ff0000;fill-opacity:0.4;stroke:#fecc45" />
+    <rect
+       cell-id="LOOagIU03v3qrGbjAb5M-6"
+       x="1"
+       y="332"
+       width="139.12"
+       height="60.869999"
+       pointer-events="all"
+       id="rect14"
+       style="fill:none;stroke:none" />
+    <g
+       cell-id="LOOagIU03v3qrGbjAb5M-6"
+       transform="translate(-0.5,-0.5)"
+       id="g29">
+      <switch
+         cell-id="LOOagIU03v3qrGbjAb5M-6"
+         id="switch27">
+        <foreignObject
+           cell-id="LOOagIU03v3qrGbjAb5M-6"
+           style="overflow: visible; text-align: left;"
+           pointer-events="none"
+           width="100%"
+           height="100%"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 137px; height: 1px; padding-top: 360px; margin-left: 2px;">
+            <xhtml:div
+               style="box-sizing: border-box; font-size: 0; text-align: center; ">
+              <xhtml:div
+                 style="display: inline-block; font-size: 18px; font-family: Helvetica, &quot;VP Default&quot;; color: #ffffff; line-height: 1.2000000000000002; pointer-events: all; font-weight: bold; word-break: break-word; white-space: normal; word-wrap: normal; ">
+                <xhtml:font
+                   style="font-size: 18px">Daten</xhtml:font>
+              </xhtml:div>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <svg
+           width="100%"
+           height="100%"
+           version="1.1"
+           id="svg25">
+          <defs
+             id="defs17">
+            <path
+               id="m8FYRwGGu72ivwBx"
+               d="M 45.484375,368.60312 H 95.5"
+               inkscape:connector-curvature="0" />
+          </defs>
+          <text
+             font-size="18px"
+             font-weight="700"
+             id="text23"
+             style="font-weight:700;font-size:18px;font-family:Helvetica, 'VP Default';fill:#ffffff">
+            <textPath
+               xlink:href="#m8FYRwGGu72ivwBx"
+               startOffset="50%"
+               id="textPath21"
+               style="text-anchor:middle;fill:#ffffff;fill-opacity:1">Daten</textPath>
+          </text>
+        </svg>
+      </switch>
+    </g>
+    <rect
+       cell-id="LOOagIU03v3qrGbjAb5M-8"
+       x="349.98999"
+       y="331"
+       width="141.00999"
+       height="61.689999"
+       pointer-events="all"
+       id="rect31"
+       style="fill:none;stroke:none" />
+    <g
+       cell-id="LOOagIU03v3qrGbjAb5M-8"
+       transform="translate(-0.5,-0.5)"
+       id="g46">
+      <switch
+         cell-id="LOOagIU03v3qrGbjAb5M-8"
+         id="switch44">
+        <foreignObject
+           cell-id="LOOagIU03v3qrGbjAb5M-8"
+           style="overflow: visible; text-align: left;"
+           pointer-events="none"
+           width="100%"
+           height="100%"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 139px; height: 1px; padding-top: 360px; margin-left: 351px;">
+            <xhtml:div
+               style="box-sizing: border-box; font-size: 0; text-align: center; ">
+              <xhtml:div
+                 style="display: inline-block; font-size: 18px; font-family: Helvetica, &quot;VP Default&quot;; color: #ffffff; line-height: 1.2000000000000002; pointer-events: all; font-weight: bold; word-break: break-word; white-space: normal; word-wrap: normal; ">
+                <xhtml:font
+                   style="font-size: 18px">Arbeit</xhtml:font>
+              </xhtml:div>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <svg
+           width="100%"
+           height="100%"
+           version="1.1"
+           id="svg42">
+          <defs
+             id="defs34">
+            <path
+               id="O8FYRwGGu72ivwBy"
+               d="M 394.48437,368.60312 H 446.5"
+               inkscape:connector-curvature="0" />
+          </defs>
+          <text
+             font-size="18px"
+             font-weight="700"
+             id="text40"
+             style="font-weight:700;font-size:18px;font-family:Helvetica, 'VP Default';fill:#ffffff">
+            <textPath
+               xlink:href="#O8FYRwGGu72ivwBy"
+               startOffset="50%"
+               id="textPath38"
+               style="text-anchor:middle;fill:#ffffff;fill-opacity:1">Arbeit</textPath>
+          </text>
+        </svg>
+      </switch>
+    </g>
+    <rect
+       cell-id="LOOagIU03v3qrGbjAb5M-10"
+       x="139"
+       y="12"
+       width="202"
+       height="88.379997"
+       pointer-events="all"
+       id="rect48"
+       style="fill:none;stroke:none" />
+    <g
+       cell-id="LOOagIU03v3qrGbjAb5M-10"
+       transform="translate(-0.5,-0.5)"
+       id="g63">
+      <switch
+         cell-id="LOOagIU03v3qrGbjAb5M-10"
+         id="switch61">
+        <foreignObject
+           cell-id="LOOagIU03v3qrGbjAb5M-10"
+           style="overflow: visible; text-align: left;"
+           pointer-events="none"
+           width="100%"
+           height="100%"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 200px; height: 1px; padding-top: 54px; margin-left: 140px;">
+            <xhtml:div
+               style="box-sizing: border-box; font-size: 0; text-align: center; ">
+              <xhtml:div
+                 style="display: inline-block; font-size: 18px; font-family: Helvetica, &quot;VP Default&quot;; color: #ffffff; line-height: 1.2000000000000002; pointer-events: all; font-weight: bold; word-break: break-word; white-space: normal; word-wrap: normal; ">
+                <xhtml:font
+                   style="font-size: 18px">Technik</xhtml:font>
+              </xhtml:div>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <svg
+           width="100%"
+           height="100%"
+           version="1.1"
+           id="svg59">
+          <defs
+             id="defs51">
+            <path
+               id="B8FYRwGGu72ivwBz"
+               d="m 206.65625,62.603125 h 66.6875"
+               inkscape:connector-curvature="0" />
+          </defs>
+          <text
+             font-size="18px"
+             font-weight="700"
+             id="text57"
+             style="font-weight:700;font-size:18px;font-family:Helvetica, 'VP Default';fill:#ffffff">
+            <textPath
+               xlink:href="#B8FYRwGGu72ivwBz"
+               startOffset="50%"
+               id="textPath55"
+               style="text-anchor:middle;fill:#ffffff;fill-opacity:1">Technik</textPath>
+          </text>
+        </svg>
+      </switch>
+    </g>
+    <rect
+       cell-id="5OimyMCi2ljD00eGI3LV-4"
+       x="147.99001"
+       y="335"
+       width="202"
+       height="88.379997"
+       pointer-events="all"
+       id="rect65"
+       style="fill:none;stroke:none" />
+    <g
+       cell-id="5OimyMCi2ljD00eGI3LV-4"
+       transform="translate(-0.5,-0.5)"
+       id="g80">
+      <switch
+         cell-id="5OimyMCi2ljD00eGI3LV-4"
+         id="switch78">
+        <foreignObject
+           cell-id="5OimyMCi2ljD00eGI3LV-4"
+           style="overflow: visible; text-align: left;"
+           pointer-events="none"
+           width="100%"
+           height="100%"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 200px; height: 1px; padding-top: 377px; margin-left: 149px;">
+            <xhtml:div
+               style="box-sizing: border-box; font-size: 0; text-align: center; ">
+              <xhtml:div
+                 style="display: inline-block; font-size: 18px; font-family: Helvetica, &quot;VP Default&quot;; color: #ffffff; line-height: 1.2000000000000002; pointer-events: all; font-weight: bold; word-break: break-word; white-space: normal; word-wrap: normal; ">
+                <xhtml:font
+                   style="font-size: 18px">Organisation</xhtml:font>
+              </xhtml:div>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <svg
+           width="100%"
+           height="100%"
+           version="1.1"
+           id="svg76">
+          <defs
+             id="defs68">
+            <path
+               id="h8FYRwGGu72ivwB0"
+               d="M 193.48437,385.60312 H 304.5"
+               inkscape:connector-curvature="0" />
+          </defs>
+          <text
+             font-size="18px"
+             font-weight="700"
+             id="text74"
+             style="font-weight:700;font-size:18px;font-family:Helvetica, 'VP Default';fill:#ffffff">
+            <textPath
+               xlink:href="#h8FYRwGGu72ivwB0"
+               startOffset="50%"
+               id="textPath72"
+               style="text-anchor:middle;fill:#ffffff;fill-opacity:1">Organisation</textPath>
+          </text>
+        </svg>
+      </switch>
+    </g>
+    <rect
+       cell-id="5OimyMCi2ljD00eGI3LV-6"
+       x="147.99001"
+       y="203"
+       width="202"
+       height="88.379997"
+       pointer-events="all"
+       id="rect82"
+       style="fill:none;stroke:none" />
+    <g
+       cell-id="5OimyMCi2ljD00eGI3LV-6"
+       transform="translate(-0.5,-0.5)"
+       id="g99">
+      <switch
+         cell-id="5OimyMCi2ljD00eGI3LV-6"
+         id="switch97">
+        <foreignObject
+           cell-id="5OimyMCi2ljD00eGI3LV-6"
+           style="overflow: visible; text-align: left;"
+           pointer-events="none"
+           width="100%"
+           height="100%"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 200px; height: 1px; padding-top: 245px; margin-left: 149px;">
+            <xhtml:div
+               style="box-sizing: border-box; font-size: 0; text-align: center; ">
+              <xhtml:div
+                 style="display: inline-block; font-size: 18px; font-family: Helvetica, &quot;VP Default&quot;; color: #ffffff; line-height: 1.2000000000000002; pointer-events: all; font-weight: bold; word-break: break-word; white-space: normal; word-wrap: normal; ">
+                <xhtml:font
+                   style="font-size: 18px">Workflow<xhtml:br />
+</xhtml:font>
+              </xhtml:div>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <svg
+           width="100%"
+           height="100%"
+           version="1.1"
+           id="svg95">
+          <defs
+             id="defs85">
+            <path
+               id="x8FYRwGGu72ivwB1"
+               d="m 208.65625,253.60312 h 80.67187"
+               inkscape:connector-curvature="0" />
+          </defs>
+          <text
+             font-size="18px"
+             font-weight="700"
+             id="text93"
+             style="font-weight:700;font-size:18px;font-family:Helvetica, 'VP Default';fill:#ffffff">
+            <textPath
+               xlink:href="#x8FYRwGGu72ivwB1"
+               startOffset="50%"
+               id="textPath91"
+               style="text-anchor:middle;fill:#ffffff;fill-opacity:1">Workflow</textPath>
+          </text>
+        </svg>
+      </switch>
+    </g>
+    <rect
+       cell-id="5OimyMCi2ljD00eGI3LV-8"
+       x="253"
+       y="152"
+       width="202"
+       height="88.379997"
+       pointer-events="all"
+       id="rect101"
+       style="fill:none;stroke:none" />
+    <g
+       cell-id="5OimyMCi2ljD00eGI3LV-8"
+       transform="translate(3.5,-0.5)"
+       id="g154">
+      <switch
+         cell-id="5OimyMCi2ljD00eGI3LV-8"
+         id="switch152">
+        <foreignObject
+           cell-id="5OimyMCi2ljD00eGI3LV-8"
+           style="overflow: visible; text-align: left;"
+           pointer-events="none"
+           width="100%"
+           height="100%"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 200px; height: 1px; padding-top: 194px; margin-left: 254px;">
+            <xhtml:div
+               style="box-sizing: border-box; font-size: 0; text-align: center; ">
+              <xhtml:div
+                 style="display: inline-block; font-size: 18px; font-family: Helvetica, &quot;VP Default&quot;; color: #ffffff; line-height: 1.2000000000000002; pointer-events: all; font-weight: bold; word-break: break-word; white-space: normal; word-wrap: normal; ">
+                <xhtml:font
+                   style="font-size: 18px">Podcast,<xhtml:br />
+
+Trans-<xhtml:br />
+
+kription</xhtml:font>
+              </xhtml:div>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <svg
+           width="100%"
+           height="100%"
+           version="1.1"
+           id="svg150">
+          <defs
+             id="defs106">
+            <path
+               id="Z8FYRwGGu72ivwB2"
+               d="m 316.48437,181.00937 h 75.03125 m -75.03125,21.6 h 75.03125 m -75.03125,21.6 h 75.03125"
+               inkscape:connector-curvature="0" />
+            <path
+               id="Z8FYRwGGu72ivwB3"
+               d="m 316.48437,181.00937 h 75.03125 m -75.03125,21.6 h 75.03125 m -75.03125,21.6 h 75.03125"
+               inkscape:connector-curvature="0" />
+            <path
+               id="58FYRwGGu72ivwB4"
+               d="m 316.48437,181.00937 h 75.03125 m -75.03125,21.6 h 75.03125 m -75.03125,21.6 h 75.03125"
+               inkscape:connector-curvature="0" />
+          </defs>
+          <text
+             font-size="18px"
+             font-weight="700"
+             id="text120"
+             style="font-weight:700;font-size:18px;font-family:Helvetica, 'VP Default';fill:#ffffff">
+            <textPath
+               xlink:href="#Z8FYRwGGu72ivwB2"
+               id="textPath118"><tspan
+   xml:space="preserve"
+   id="tspan108">Podcast,</tspan><tspan
+   xml:space="preserve"
+   id="tspan110" /><tspan
+   xml:space="preserve"
+   id="tspan112">Trans-</tspan><tspan
+   xml:space="preserve"
+   id="tspan114" /><tspan
+   xml:space="preserve"
+   id="tspan116">kription</tspan></textPath>
+          </text>
+          <text
+             font-size="18px"
+             font-weight="700"
+             id="text134"
+             style="font-weight:700;font-size:18px;font-family:Helvetica, 'VP Default';fill:#ffffff">
+            <textPath
+               xlink:href="#Z8FYRwGGu72ivwB3"
+               id="textPath132"><tspan
+   xml:space="preserve"
+   id="tspan122">Podcast,</tspan><tspan
+   xml:space="preserve"
+   id="tspan124" /><tspan
+   xml:space="preserve"
+   id="tspan126">Trans-</tspan><tspan
+   xml:space="preserve"
+   id="tspan128" /><tspan
+   xml:space="preserve"
+   id="tspan130">kription</tspan></textPath>
+          </text>
+          <text
+             font-size="18px"
+             font-weight="700"
+             id="text148"
+             style="font-weight:700;font-size:18px;font-family:Helvetica, 'VP Default';fill:#ffffff">
+            <textPath
+               xlink:href="#58FYRwGGu72ivwB4"
+               id="textPath146"
+               style="fill:#ffffff;fill-opacity:1">Podcast,Trans-kription</textPath>
+          </text>
+        </svg>
+      </switch>
+    </g>
+    <rect
+       cell-id="5OimyMCi2ljD00eGI3LV-9"
+       x="70"
+       y="111"
+       width="138"
+       height="192"
+       pointer-events="all"
+       id="rect156"
+       style="fill:none;stroke:none" />
+    <g
+       cell-id="5OimyMCi2ljD00eGI3LV-9"
+       transform="translate(-0.5,-0.5)"
+       id="g209">
+      <switch
+         cell-id="5OimyMCi2ljD00eGI3LV-9"
+         id="switch207">
+        <foreignObject
+           cell-id="5OimyMCi2ljD00eGI3LV-9"
+           style="overflow: visible; text-align: left;"
+           pointer-events="none"
+           width="100%"
+           height="100%"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 136px; height: 1px; padding-top: 205px; margin-left: 71px;">
+            <xhtml:div
+               style="box-sizing: border-box; font-size: 0; text-align: center; ">
+              <xhtml:div
+                 style="display: inline-block; font-size: 18px; font-family: Helvetica, &quot;VP Default&quot;; color: #ffffff; line-height: 1.2000000000000002; pointer-events: all; font-weight: bold; word-break: break-word; white-space: normal; word-wrap: normal; ">
+                <xhtml:font
+                   style="font-size: 18px">OCR, OLR, ASR<xhtml:br />
+
+Alignierung, <xhtml:br />
+
+...</xhtml:font>
+              </xhtml:div>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <svg
+           width="100%"
+           height="100%"
+           version="1.1"
+           id="svg205">
+          <defs
+             id="defs161">
+            <path
+               id="F8FYRwGGu72ivwB5"
+               d="M 71.328125,192.00937 H 206.67187 m -135.343745,21.6 H 206.67187 m -135.343745,21.6 H 206.67187"
+               inkscape:connector-curvature="0" />
+            <path
+               id="l8FYRwGGu72ivwB6"
+               d="M 71.328125,192.00937 H 206.67187 m -135.343745,21.6 H 206.67187 m -135.343745,21.6 H 206.67187"
+               inkscape:connector-curvature="0" />
+            <path
+               id="V8FYRwGGu72ivwB7"
+               d="M 71.328125,192.00937 H 206.67187 m -135.343745,21.6 H 206.67187 m -135.343745,21.6 H 206.67187"
+               inkscape:connector-curvature="0" />
+          </defs>
+          <text
+             font-size="18px"
+             font-weight="700"
+             id="text175"
+             style="font-weight:700;font-size:18px;font-family:Helvetica, 'VP Default';fill:#ffffff">
+            <textPath
+               xlink:href="#F8FYRwGGu72ivwB5"
+               id="textPath173"><tspan
+   xml:space="preserve"
+   id="tspan163">OCR, OLR, ASR</tspan><tspan
+   xml:space="preserve"
+   id="tspan165" /><tspan
+   xml:space="preserve"
+   id="tspan167">Alignierung, </tspan><tspan
+   xml:space="preserve"
+   id="tspan169" /><tspan
+   xml:space="preserve"
+   id="tspan171">...</tspan></textPath>
+          </text>
+          <text
+             font-size="18px"
+             font-weight="700"
+             id="text189"
+             style="font-weight:700;font-size:18px;font-family:Helvetica, 'VP Default';fill:#ffffff">
+            <textPath
+               xlink:href="#l8FYRwGGu72ivwB6"
+               id="textPath187"><tspan
+   xml:space="preserve"
+   id="tspan177">OCR, OLR, ASR</tspan><tspan
+   xml:space="preserve"
+   id="tspan179" /><tspan
+   xml:space="preserve"
+   id="tspan181">Alignierung, </tspan><tspan
+   xml:space="preserve"
+   id="tspan183" /><tspan
+   xml:space="preserve"
+   id="tspan185">...</tspan></textPath>
+          </text>
+          <text
+             font-size="18px"
+             font-weight="700"
+             id="text203"
+             style="font-weight:700;font-size:18px;font-family:Helvetica, 'VP Default';fill:#ffffff">
+            <textPath
+               xlink:href="#V8FYRwGGu72ivwB7"
+               id="textPath201"
+               style="fill:#ffffff;fill-opacity:1">OCR, OLR, ASRAlignierung, ...</textPath>
+          </text>
+        </svg>
+      </switch>
+    </g>
+  </g>
+  <switch
+     id="switch219">
+    <g
+       requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+       id="g213" />
+    <a
+       transform="translate(0,-5)"
+       id="a217">
+      <text
+         text-anchor="middle"
+         font-size="10px"
+         x="50%"
+         y="100%"
+         id="text215" />
+    </a>
+  </switch>
+</svg>

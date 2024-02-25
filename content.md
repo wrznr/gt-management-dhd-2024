@@ -987,7 +987,59 @@ count: false
 
 ---
 
-# Wege zur *Ground Truth* revisited
+# Wege zur *Ground Truth* rev.
+
+- benötigte softwaretechnische Umgebung **frei verfügbar**, jedoch **hochkomplexes** technisches Setting
+- gleichzeitig **manuelle** Aufwände im Allgemeinen nicht abbildbar
+- Rollenaufteilung im Zusammenspiel aus technischem Fachwissen, Datenkompetenz und Arbeitskraft
+
+<center>
+<img src="img/components.svg" width="350px" />
+</center>
+
+---
+
+# Wege zur *Ground Truth* rev.: Soldatenbriefe
+
+- Dissertationsprojekt Soldatenbriefe Deutsch-Französischer Krieg 1870/71 (Dominik Hetjens, TU Dresden)
+- Zufallsfund: bürgerwissenschaftliche Edition
+
+<center>
+<a href="img/Soldatenbriefe.svg"><img src="img/Soldatenbriefe.svg" width="950px" /></a>
+</center>
+
+---
+
+# Wege zur *Ground Truth* rev.: Forced Alignment
+
+- typischer Fall: hochwertige Transkription **ohne** Bezug zum Digitalisat
+    + wissenschaftliche Edition
+    + Wikisource
+    + Deutsches Textarchiv
+- nachträgliche Verbindung auf Zeilenebene durch **Forced Alignment**
+    + OLR zur Ermittlung der Zeilenkoordinaten
+    + OCR zur Ermittlung einer Referenztranskription
+    + Vergleich beider Transkriptionen zur Rekonstruktion des Text-Bild-Alignments
+
+---
+
+# Wege zur *Ground Truth* rev.: MKN
+
+- Ehrenamtsprojekt *Gemeinnachrichten* (Leitung: Juan Garcés) im Rahmen des [Moravian Knowledge Network](https://dhh.hypotheses.org/)
+    * gemeinschaftliche Transkription: Vermittlung von Kurrent und editorischen Grundlagen
+    * Repräsentation in TEI: Vermittlung von Datenkompetenz
+
+<center>
+<a href="img/Herrnhut-Edition.svg"><img src="img/Herrnhut-Edition.svg" width="950px" /></a>
+</center>
+
+---
+
+# Wege zur *Ground Truth* rev.: Rollenaufteilung
+
+
+
+---
 
 - vorhandenes, aber nicht aligniertes Textmaterial
     + Soldatenbriefe
