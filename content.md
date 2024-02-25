@@ -659,6 +659,24 @@ class: part-slide
 
 # Trainingseffekte
 
+## Auswertungsbsp.: Segmentierungsfehler
+
+![larex-view-insert](https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/5d51358b-e787-489d-ab84-52d49c3c4d32)
+
+
+---
+
+# Trainingseffekte
+
+## Auswertungsbsp.: Transkriptionsfehler
+
+![larex-diff-misaligned](https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/8739470d-a621-4127-bd5a-92655890405d)
+
+
+---
+
+# Trainingseffekte
+
 ## Auswertungsbsp.: Verwechslung von `s` und `ſ`
 
 <div class="cols">
