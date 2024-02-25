@@ -669,7 +669,7 @@ count: false
 - [Aletheia](https://www.primaresearch.org/tools/Aletheia)
 
 <center>
-<img src="https://cdn.wpmeducation.com/53544f/9b62a1e054/3B44-311A-423B-9F17-A3D4.jpg" width="650px" />
+<img src="https://cdn.wpmeducation.com/53544f/9b62a1e054/3B44-311A-423B-9F17-A3D4.jpg" width="450px" />
 </center>
 
 ---
