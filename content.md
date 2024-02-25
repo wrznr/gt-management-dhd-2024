@@ -1038,6 +1038,14 @@ count: false
 
 # Wege zur *Ground Truth* rev.: Rollenaufteilung
 
+- Arbeitskraft: Beitrag durch Freiwillige
+    * (regionales) Interesse und Sichtbarkeit der Arbeit
+- Technik: Optimierung der Rahmenbedingungen
+    * Unterstützung manueller Arbeit durch automatische Schritte
+- Datenkompetenz: Organisation der Abläufe
+    * Vermittlung von Grundkenntnissen
+    * Konsolidierung und Inwertsetzung der Arbeit
+
 <center>
 <img src="img/ehrenamt.png" width="450px" />
 </center>
@@ -1055,9 +1063,26 @@ count: false
 
 ---
 
-- Datenkultur (Vgl. Transkribus)
-    * Schnittstellen- und Plattformneutralität
-    * OCR-D
+# Wege zur *Ground Truth* rev.: techn. Hürden
+
+- Zielkonflikt
+    + Domänenexpertise (Kurrent, Hintergrundwissen) vs.
+    + rechentechnische Fertigkeiten
+
+  → Vermeidung durch Etablierung geteilter Arbeitsabläufe
+
+- Reduktion technischer Hürden und manuellen Aufwands
+    + Transkription *ohne* Transkription
+    + dafür automatisch: OLR und Alignierung von OCR und Transkription (via ASR)
+
+  → Kompromiss zwischen Aufwand für weitestmögliche Automatisierung und Umfang der manuellen Nachbearbeitung
+
+---
+
+# Wege zur *Ground Truth* rev.: Datenkultur
+
+* Schnittstellen- und Plattformneutralität
+* OCR-D
 
 ---
 
