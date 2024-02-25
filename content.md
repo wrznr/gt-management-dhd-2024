@@ -541,6 +541,21 @@ count: false
 
 # Wege zur *Ground Truth*
 
+- Ziel: (nahezu) fehlerfrei transkribierte Volltexte **und** deren Lokalisierung auf dem entsprechenden Digitalisiat
+    * für Texterkennung: **zeilengenau**
+    * Unterteilung in drei jeweils distinkte Teile
+        + (60 %) **Trainingsdaten**: Schätzung der **Modellparameter** (e.g. Übergangswahrscheinlichkeiten)
+        + (20 %) **Validierungsdaten**: Schätzung der **Hyperparameter** (e.g. Modellarchitektur)
+        + (20 %) **Testdaten**: Überprüfung der **Güte** der Schätzung
+- Rezept:
+    * Zeilen markieren
+    * Text abschreiben
+    * Ground Truth extrahieren
+
+---
+
+# Wege zur *Ground Truth*
+
 ## Prinzipien
 
 - kollaboratives Arbeiten
