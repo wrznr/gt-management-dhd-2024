@@ -571,11 +571,12 @@ class: part-slide
 
 1. auf Github.com anmelden
 2. [GT-Repo-Template](https://github.com/OCR-D/gt-repo-template) benutzen
-3. ein oder mehrere Datenpakete herunterladen und entpacken:  
-    |---|---|---|---|
-    | [GN_1765_1_GN_A_109](https://datashare.tu-dresden.de/s/HXJZATYJjqtK5mT)   | [GN_1771_4_GN_A_158](https://datashare.tu-dresden.de/s/SdkxJECoFLBTQ6W)   | [GN_1774_3_GN_A_171](https://datashare.tu-dresden.de/s/iz3BWgTd7omokHL)   | [GN_1806_4_GN_A_354](https://datashare.tu-dresden.de/s/Qk5CcMMsSB4TcBJ) |
-    | [GN_1765_2_GN_A_110](https://datashare.tu-dresden.de/s/8Crrz3n7fYmEsm2)   | [GN_1773_3_GN_A_167](https://datashare.tu-dresden.de/s/k6jB9ptiSCXoNCZ)   | [GN_1788_5_GN_A_250](https://datashare.tu-dresden.de/s/HkD5moecjHwMkQk)   | [GN_1807_1_GN_A_355](https://datashare.tu-dresden.de/s/BQ8Jj8kcWcqxxTA) |
-    | [GN_1770_2_GN_A_148](https://datashare.tu-dresden.de/s/JwfRKSEprykdkTK)   | [GN_1774_2_GN_A_170](https://datashare.tu-dresden.de/s/qZr7gACfAzePzmi)   | [GN_1806_1_GN_A_351](https://datashare.tu-dresden.de/s/E8RxqcgXXEFFXbx)   | |
+3. ein oder mehrere Datenpakete herunterladen und entpacken:
+
+|---|---|---|---|
+| [GN_1765_1_GN_A_109](https://datashare.tu-dresden.de/s/HXJZATYJjqtK5mT)   | [GN_1771_4_GN_A_158](https://datashare.tu-dresden.de/s/SdkxJECoFLBTQ6W)   | [GN_1774_3_GN_A_171](https://datashare.tu-dresden.de/s/iz3BWgTd7omokHL)   | [GN_1806_4_GN_A_354](https://datashare.tu-dresden.de/s/Qk5CcMMsSB4TcBJ) |
+| [GN_1765_2_GN_A_110](https://datashare.tu-dresden.de/s/8Crrz3n7fYmEsm2)   | [GN_1773_3_GN_A_167](https://datashare.tu-dresden.de/s/k6jB9ptiSCXoNCZ)   | [GN_1788_5_GN_A_250](https://datashare.tu-dresden.de/s/HkD5moecjHwMkQk)   | [GN_1807_1_GN_A_355](https://datashare.tu-dresden.de/s/BQ8Jj8kcWcqxxTA) |
+| [GN_1770_2_GN_A_148](https://datashare.tu-dresden.de/s/JwfRKSEprykdkTK)   | [GN_1774_2_GN_A_170](https://datashare.tu-dresden.de/s/qZr7gACfAzePzmi)   | [GN_1806_1_GN_A_351](https://datashare.tu-dresden.de/s/E8RxqcgXXEFFXbx)   | |
 4. Dateien im Repo unter `data/` per _Add file | Upload files_ hochladen 
 6. [GT-Metadaten-Formular](https://tboenig.github.io/gt-metadata/document-your-gt.html) ausfüllen
 7. generierte `METADATA.yml` per _Add file_ hochladen
