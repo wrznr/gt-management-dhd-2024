@@ -661,8 +661,8 @@ class: part-slide
 
 ## Auswertungsbsp.: Verwechslung von `s` und `ſ`
 
-.cols[
-.fourty[
+<div class="cols">
+<div class="fourty">
 <center>
   
 | **f#** | **f%** | **GT** | **OCR** |
@@ -680,14 +680,15 @@ class: part-slide
 | 19 | 0.5 | `r` | `e` |
 
 </center>
-]
-.sixty[
+</div>
+<div class="sixty">
 <center>
   
 ![larex-diff-long-round-s](https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/cfb69f99-d929-4750-a5a2-8e661822d20b)
 
 </center>
-]]
+</div>
+</div>
 
 ---
 
