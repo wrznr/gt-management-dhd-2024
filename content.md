@@ -572,7 +572,7 @@ class: part-slide
 1. auf Github.com anmelden
 2. [GT-Repo-Template](https://github.com/OCR-D/gt-repo-template) benutzen
 3. ein oder mehrere Datenpakete herunterladen und entpacken:
-   <table>
+   <table style="font-size: small; text-align: left">
    <tr>
      <td> 
        <a href="https://datashare.tu-dresden.de/s/HXJZATYJjqtK5mT">GN_1765_1_GN_A_109</a>
@@ -654,6 +654,40 @@ class: part-slide
   → Konsolidierung (OCR-Schwachstellen, GT-Flüchtigkeitsfehler)
 - Aufteilung in bekannte Untermengen  
    → Repräsentativität und Generalisierbarkeit (z.B. Schreiber, Materialität)
+
+---
+
+# Trainingseffekte
+
+## Auswertungsbsp.: Verwechslung von `s` und `ſ`
+
+.cols[
+.fourty[
+<center>
+  
+| **f#** | **f%** | **GT** | **OCR** |
+| --- | --- | --- | --- |
+| 696 | 18.4 | `s` | `ſ` |
+| 107 | 2.8 | `ſ` | `s` |
+| 73 | 1.9 | `-` | `⸗` |
+| 48 | 1.2 | `m` | `n` |
+| 33 | 0.9 | `⸗` | `-` |
+| 32 | 0.8 | `u` | `n` |
+| 23 | 0.6 | `n` | `m` |
+| 20 | 0.5 | `a` | `e` |
+| 19 | 0.5 | `ö` | `o` |
+| 19 | 0.5 | `ä` | `a` |
+| 19 | 0.5 | `r` | `e` |
+
+</center>
+]
+.sixty[
+<center>
+  
+![larex-diff-long-round-s](https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/cfb69f99-d929-4750-a5a2-8e661822d20b)
+
+</center>
+]]
 
 ---
 
