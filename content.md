@@ -622,7 +622,7 @@ count: false
     + [OCR4all](https://www.ocr4all.org/)
     + [eScriptorium](https://escriptorium.openiti.org/)
     + [Aletheia](https://www.primaresearch.org/tools/Aletheia)
-    + [Transkribus](https://readcoop.eu/de/transkribus/)
+    + ([Transkribus](https://readcoop.eu/de/transkribus/))
 * Publikationsinfrastruktur
     + [HTR-United](https://htr-united.github.io/)
     + [Zenodo](https://zenodo.org/communities/ocr_models/records)
@@ -634,8 +634,8 @@ count: false
 # Wege zur *Ground Truth*: [OCR4all](https://www.ocr4all.org/)
 
 * Software zur Struktur- und Volltexterstellung
-* manuelle und automatische Annotation, Training
-* mit Calamari und Tesseract als OCR-Engines, LAREX als GT-Editor
+* manuelle und automatische Annotation, werkspez. Training
+* mit Calamari+Tesseract als OCR-Engine, LAREX als GT-Editor
 
 <center>
 <img src="https://www.ocr4all.org/images/user-guide/project_start_and_overview/project_overview_settings.jpg" width="650px" />
@@ -648,8 +648,8 @@ count: false
 # Wege zur *Ground Truth*: [OCR4all](https://www.ocr4all.org/)
 
 * Software zur Struktur- und Volltexterstellung
-* manuelle und automatische Annotation, Training
-* mit Calamari und Tesseract als OCR-Engines, LAREX als GT-Editor
+* manuelle und automatische Annotation, werkspez. Training
+* mit Calamari+Tesseract als OCR-Engine, LAREX als GT-Editor
 
 <center>
 <img src="https://www.ocr4all.org/images/user-guide/workflow/LAREX_interface_with_automatic_segmentation_results.png" width="650px" />
@@ -663,7 +663,7 @@ count: false
 
 * Software zur Struktur- und Volltexterstellung
 * manuelle und automatische Annotation, werkspez. Training
-* mit Calamari und Tesseract als OCR-Engines, LAREX als GT-Editor
+* mit Calamari+Tesseract als OCR-Engine, LAREX als GT-Editor
 
 <center>
 <img src="https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/3e95b7c3-3b16-43fc-8f64-0c1c76cc5b84" alt="larex-transcription" width="650px" />
@@ -682,7 +682,7 @@ count: false
 
 # Wege zur *Ground Truth*: [Aletheia](https://www.primaresearch.org/tools/Aletheia)
 
-* vollständiger GT-Editor für PAGE-XML
+* vollständiger GT-Editor für [PAGE-XML](https://github.com/PRImA-Research-Lab/PAGE-XML)
 
 <center>
 <img src="https://cdn.wpmeducation.com/53544f/9b62a1e054/3B44-311A-423B-9F17-A3D4.jpg" width="450px" />
@@ -1111,7 +1111,7 @@ count: false
 # Wege zur *Ground Truth* rev.: Datenkultur
 
 * Schnittstellen- und Plattformneutralität
-* OCR-D
+* [OCR-D](https://ocr-d.de)
 
 ---
 
