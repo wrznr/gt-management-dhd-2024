@@ -575,12 +575,6 @@ count: false
     * iteratives Vorgehen  
         + besseres Modell für jeweils nächste Daten
     * **offene Datenkultur**
-- Werkzeuge
-    * Texteditor und Graphikprogramm bzw. spezialisierte Tools, z.B.
-        + [OCR4all](https://www.ocr4all.org/)
-        + [eScriptorium](https://escriptorium.openiti.org/)
-        + [Aletheia](https://www.primaresearch.org/tools/Aletheia)
-    * **Publikationsinfrastruktur**: [HTR-United](https://htr-united.github.io/)
 
 ---
 
@@ -594,6 +588,18 @@ count: false
 <center>
 <a href="img/Normalvorgehen.svg"><img src="img/Normalvorgehen.svg" width="950px" /></a>
 </center>
+
+---
+
+# Wege zur *Ground Truth*
+
+- Werkzeuge
+    * Texteditor und Graphikprogramm bzw. spezialisierte Tools, z.B.
+        + [OCR4all](https://www.ocr4all.org/)
+        + [eScriptorium](https://escriptorium.openiti.org/)
+        + [Aletheia](https://www.primaresearch.org/tools/Aletheia)
+    * **Publikationsinfrastruktur**: [HTR-United](https://htr-united.github.io/)
+
 
 ---
 
@@ -700,7 +706,7 @@ count: false
 5. [GT-Metadaten-Formular](https://tboenig.github.io/gt-metadata/document-your-gt.html) ausfüllen
 6. generierte `METADATA.yml` per _Add file_ hochladen
 7. eine Release `v1.0.0` anlegen und Github Action abwarten
-8. ...
+8. Deployment ansehen und Release-Assets herunterladen
 
 
 ---
@@ -716,7 +722,7 @@ count: false
 
 ## Vorgehen
 
-- repräsentative **Auswahl** Ground-Truth  
+- repräsentative **Auswahl** der Ground-Truth  
   (ggf. Mischung mehrerer Quellen/Dokumente)
 - fester, randomisierter **Schnitt**  
   (Lernstichprobe-Prüfstichprobe)
@@ -732,13 +738,21 @@ count: false
 
 ## Training
 
-- Vorverarbeitung/Bereinigung/Normalisierung ...
+.cols[
+.fourty[
+
+- Vorverarbeitung, Bereinigung, Normalisierung ...
 - Bsp. [randomisierter Schnitt](https://github.com/bertsky/test-gt/wiki/Splitting-Dataset)
 - Bsp. [Trainingsprozedur Kraken](https://github.com/bertsky/test-gt/wiki/Kraken-Training)
 - Bsp. [Trainingsprozedur Calamari1](https://github.com/bertsky/test-gt/wiki/Kraken-Calamari1)
 
+]
+.sixty[
+
 ![metrics](https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/af6fe568-8edc-415a-9588-aaaa666cc82c)
 
+]
+]
 
 ---
 
@@ -791,7 +805,7 @@ count: false
 <div class="fourty">
 <center>
 
-<div class="my-table"/>
+<div class="my-table"></div>
 
 <table data-sourcepos="697:1-709:24">
 <thead>
