@@ -989,9 +989,10 @@ count: false
 
 # Wege zur *Ground Truth* rev.
 
-- benötigte softwaretechnische Umgebung **frei verfügbar**, jedoch **hochkomplexes** technisches Setting
-- gleichzeitig **manuelle** Aufwände im Allgemeinen nicht abbildbar
-- Rollenaufteilung im Zusammenspiel aus technischem Fachwissen, Datenkompetenz und Arbeitskraft
+- benötigte softwaretechnische Umgebung **frei verfügbar**
+    * jedoch **hochkomplexes** technisches Setting
+    * gleichzeitig **manuelle** Aufwände i.A. nicht abbildbar
+- Rollenaufteilung im Zusammenspiel aus Technik, Datenkompetenz und Arbeitskraft
 
 <center>
 <img src="img/components.svg" width="350px" />
@@ -1037,7 +1038,9 @@ count: false
 
 # Wege zur *Ground Truth* rev.: Rollenaufteilung
 
+---
 
+# Wege zur *Ground Truth* rev.: Podcast
 
 ---
 
