@@ -548,7 +548,7 @@ count: false
         + (60 %) **Trainingsdaten**: Schätzung der **Modellparameter** (e.g. Übergangswahrscheinlichkeiten)
         + (20 %) **Validierungsdaten**: Schätzung der **Hyperparameter** (e.g. Modellarchitektur)
         + (20 %) **Testdaten**: Überprüfung der **Güte** der Schätzung
-- Rezept:
+- Rezept
     * Zeilen markieren
     * Text abschreiben
     * Ground Truth extrahieren
@@ -564,17 +564,23 @@ count: false
 
 # Wege zur *Ground Truth*
 
-## Prinzipien
-
-- kollaboratives Arbeiten
-  - Einteilung, Planung, Überwachung
-  - Spezialisierung in Teilaufgaben
-  - gegenseitiges Überprüfen (Double Keying)
-- manuellen Anteil minimieren
-  - automatische Layoutanalyse – nur Segmente korrigieren
-  - automatische Zeichenerkennung – nur Transkription korrigieren
-- iteratives Vorgehen  
-  (besseres Modell für jeweils nächste Daten)
+- grundlegende Prinzipien
+    * kollaboratives Arbeiten
+        + Einteilung, Planung, Überwachung
+        + Spezialisierung in Teilaufgaben
+        + gegenseitiges Überprüfen (*Double Keying*)
+    * manuellen Anteil minimieren
+        + automatische Layoutanalyse – nur Segmente korrigieren
+        + automatische Zeichenerkennung – nur Transkription korrigieren
+    * iteratives Vorgehen  
+        + besseres Modell für jeweils nächste Daten
+    * **offene Datenkultur**
+- Werkzeuge
+    * Texteditor und Graphikprogramm bzw. spezialisierte Tools, z.B.
+        + [OCR4all](https://www.ocr4all.org/)
+        + [eScriptorium](https://escriptorium.openiti.org/)
+        + [Tesstrain](https://github.com/tesseract-ocr/tesstrain)
+    * **Publikationsinfrastruktur**: [HTR-United](https://htr-united.github.io/)
 
 ---
 
