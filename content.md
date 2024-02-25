@@ -992,8 +992,8 @@ count: false
 - benötigte softwaretechnische Umgebung **frei verfügbar**
     * jedoch **hochkomplexes** technisches Setting
     * gleichzeitig **manuelle** Aufwände i.A. nicht abbildbar
-- Rollenaufteilung im Zusammenspiel aus Technik, Datenkompetenz und Arbeitskraft
-
+- Rollenaufteilung im Zusammenspiel
+    * aus Technik, Datenkompetenz und Arbeitskraft
 <center>
 <img src="img/components.svg" width="350px" />
 </center>
@@ -1038,19 +1038,23 @@ count: false
 
 # Wege zur *Ground Truth* rev.: Rollenaufteilung
 
+<center>
+<img src="img/ehrenamt.png" width="450px" />
+</center>
+
 ---
 
 # Wege zur *Ground Truth* rev.: Podcast
 
+- Podcast [*Alte Schriften*](https://open.spotify.com/show/4DFXzITmsHlJiwC3OsRp5l?si=_9OJbAc_TFeceTFvxzuGSA)
+- „Retextualisierung“ mittels automatischer Spracherkennung
+
+<center>
+<a href="img/Herrnhut-Podcasts.svg"><img src="img/Herrnhut-Podcasts.svg" width="950px" /></a>
+</center>
+
 ---
 
-- vorhandenes, aber nicht aligniertes Textmaterial
-    + Soldatenbriefe
-- Einbindung von Freiwilligen
-    * Podcasts
-    * forced Alignment
-- Rollenmodell
-    * Venn Diagram
 - Datenkultur (Vgl. Transkribus)
     * Schnittstellen- und Plattformneutralität
     * OCR-D
