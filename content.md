@@ -533,6 +533,7 @@ count: false
 ---
 
 class: part-slide
+count: false
 
 # Wege zur *Ground Truth*
 
@@ -562,6 +563,7 @@ class: part-slide
 ---
 
 class: part-slide
+count: false
 
 # Forschungsdatenmanagement für OCR-Trainingsdaten
 
@@ -623,6 +625,7 @@ class: part-slide
 ---
 
 class: part-slide
+count: false
 
 # Trainingseffekte
 
@@ -660,6 +663,9 @@ class: part-slide
 # Trainingseffekte
 
 ## Auswertungsbsp.: Segmentierungsfehler
+
+![larex-lines-coords-err](https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/d2f27128-71ed-426f-89a8-ccae6ec4611b)
+
 
 ![larex-view-insert](https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/5d51358b-e787-489d-ab84-52d49c3c4d32)
 
@@ -713,7 +719,9 @@ class: part-slide
 # Trainingseffekte
 
 ## Auswertungsbsp.: Schreiber
-  
+
+<div class="my-table"></div>
+
 | **Menge** | **Zeilen** | **CER [%]** | 
 | --- | --- | --- |
 | alles | 19618 | 1.6 |
