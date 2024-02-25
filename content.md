@@ -541,6 +541,8 @@ count: false
 
 # Wege zur *Ground Truth*
 
+.cols[
+.sixty[
 - Ziel: (nahezu) fehlerfrei transkribierte Volltexte **und** deren Lokalisierung auf dem entsprechenden Digitalisiat
     * für Texterkennung: **zeilengenau**
     * Unterteilung in drei jeweils distinkte Teile
@@ -551,6 +553,14 @@ count: false
     * Zeilen markieren
     * Text abschreiben
     * Ground Truth extrahieren
+
+]
+.fourty[
+<center>
+<img src="img/gt.svg" width="290px" />
+</center>
+]
+]
 
 ---
 
