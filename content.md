@@ -545,10 +545,11 @@ class: part-slide
   - Einteilung, Planung, Überwachung
   - Spezialisierung in Teilaufgaben
   - gegenseitiges Überprüfen (Double Keying)
-- manuellen Anteil minimieren:
+- manuellen Anteil minimieren
   - automatische Layoutanalyse – nur Segmente korrigieren
   - automatische Zeichenerkennung – nur Transkription korrigieren
-- iteratives Vorgehen (besseres Modell für nächste Daten)
+- iteratives Vorgehen  
+  (besseres Modell für jeweils nächste Daten)
 
 ---
 
@@ -562,6 +563,33 @@ class: part-slide
 class: part-slide
 
 # Forschungsdatenmanagement für OCR-Trainingsdaten
+
+---
+
+# Forschungsdatenmanagement für OCR-Trainingsdaten
+
+## Aufgaben
+
+1. auf Github.com anmelden
+2. [GT-Repo-Template](https://github.com/OCR-D/gt-repo-template) benutzen
+3. ein oder mehrere Datenpakete herunterladen:
+   - GN_1765_1_GN_A_109
+   - GN_1765_2_GN_A_110
+   - GN_1770_2_GN_A_148
+   - GN_1771_4_GN_A_158
+   - GN_1773_3_GN_A_167
+   - GN_1774_2_GN_A_170
+   - GN_1774_3_GN_A_171
+   - GN_1788_5_GN_A_250
+   - GN_1806_1_GN_A_351
+   - GN_1806_4_GN_A_354
+   - GN_1807_1_GN_A_355
+4. zip-Dateien (lokal) entpacken
+5. xml-Dateien im Repo unter `data/` per _Add file(s)_ hochladen 
+6. [GT-Metadaten-Formular](https://tboenig.github.io/gt-metadata/document-your-gt.html) ausfüllen
+7. `METADATA.yml` per _Add file_ hochladen
+8. eine Release `v1.0` anlegen
+9. ...
 
 ---
 
@@ -604,7 +632,7 @@ class: part-slide
 
 ## Auswertungsbsp.: Schreiber
 
-<div class="my-table">
+<div class="my-table" markdown="block">
   
 | **Menge** | **Zeilen** | **CER [%]** | 
 | --- | --- | --- |
