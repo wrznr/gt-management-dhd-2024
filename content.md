@@ -544,7 +544,6 @@ count: false
 .cols[
 .sixty[
 - Ziel: (nahezu) fehlerfrei transkribierte Volltexte **und** deren Lokalisierung auf dem entsprechenden Digitalisiat
-    * für Texterkennung: **zeilengenau**
     * Unterteilung in drei jeweils distinkte Teile
         + (60 %) **Trainingsdaten**: Schätzung der **Modellparameter** (e.g. Übergangswahrscheinlichkeiten)
         + (20 %) **Validierungsdaten**: Schätzung der **Hyperparameter** (e.g. Modellarchitektur)
@@ -553,9 +552,6 @@ count: false
     * Zeilen markieren
     * Text abschreiben
     * Ground Truth extrahieren
-
-Alles ganz einfach?
-
 ]
 .fourty[
 <center>
@@ -596,7 +592,7 @@ count: false
 
 ---
 
-# Forschungsdatenmanagement für OCR-Trainingsdaten
+# FDM für OCR-Trainingsdaten
 
 1. auf Github.com anmelden
 2. [GT-Repo-Template](https://github.com/OCR-D/gt-repo-template) benutzen
