@@ -16,11 +16,10 @@ p { line-height:1.25em; font-size:1.8rem; margin-block-end: auto }
 
 pre { margin:0; padding:.5em; background:#f6f8fa }
 
-table { margin:auto; width:100% }
+table { margin:auto; width:100%; text-align: right }
 thead { background:#eee }
 
-.my-table { text-align: right }
-.my-table tbody tr:nth-child(even) { background:#f3f3f3 }
+table tbody tr:nth-child(even) { background:#f3f3f3 }
 
 ul > li > ul > li { font-size:1.4rem }
 ul > li > ol > li { font-size:1.4rem }
