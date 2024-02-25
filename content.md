@@ -579,13 +579,17 @@ count: false
     * Ground Truth extrahieren
 ]
 .fourty[
-LAREX-Screenshot
+<center>
+  <img src="https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/3fb49a08-6a7a-4a44-9080-8d8ccc8bace2" alt="larex-segmentation" width="290px" style="object-fit: cover"/>
+</center>
+
+
 ]
 ]
 
 ---
 
-# Wege zur *Ground Truth*: grundlegende Prinzipien
+# Wege zur *Ground Truth*: Prinzipien
 
 * kollaboratives Arbeiten
     + Einteilung, Planung, Überwachung
@@ -614,12 +618,12 @@ LAREX-Screenshot
 
 # Wege zur *Ground Truth*: Werkzeuge
 
-* Texteditor und Graphikprogramm bzw. spezialisierte Tools, z.B.
+* GUI für Segment- und Texterkennung und -korrektur, z.B.
     + [OCR4all](https://www.ocr4all.org/)
     + [eScriptorium](https://escriptorium.openiti.org/)
     + [Aletheia](https://www.primaresearch.org/tools/Aletheia)
     + [Transkribus](https://readcoop.eu/de/transkribus/)
-* **Publikationsinfrastruktur**
+* Publikationsinfrastruktur
     + [HTR-United](https://htr-united.github.io/)
     + [Zenodo](https://zenodo.org/communities/ocr_models/records)
     + [OCR-D-GT](https://github.com/OCR-D/gt-repo-template)
@@ -627,12 +631,11 @@ LAREX-Screenshot
 
 ---
 
-# Wege zur *Ground Truth*
+# Wege zur *Ground Truth*: [OCR4all](https://www.ocr4all.org/)
 
-- [OCR4all](https://www.ocr4all.org/)
-    * Software zur Struktur- und Volltexterstellung
-    * unterstützt manuelle und automatische Bearbeitungen auf Seitenebene
-    * bündelt Calamari und Tesseract als OCR-Engines sowie LAREX als GT-Editor
+* Software zur Struktur- und Volltexterstellung
+* unterstützt manuelle und automatische Bearbeitungen auf Seitenebene
+* bündelt Calamari und Tesseract als OCR-Engines sowie LAREX als GT-Editor
 
 <center>
 <img src="https://www.ocr4all.org/images/user-guide/project_start_and_overview/project_overview_settings.jpg" width="650px" />
@@ -642,12 +645,11 @@ LAREX-Screenshot
 
 count: false
 
-# Wege zur *Ground Truth*
+# Wege zur *Ground Truth*: [OCR4all](https://www.ocr4all.org/)
 
-- [OCR4all](https://www.ocr4all.org/)
-    * Software zur Struktur- und Volltexterstellung
-    * unterstützt manuelle und automatische Bearbeitungen auf Seitenebene
-    * bündelt Calamari und Tesseract als OCR-Engines sowie LAREX als GT-Editor
+* Software zur Struktur- und Volltexterstellung
+* unterstützt manuelle und automatische Bearbeitungen auf Seitenebene
+* bündelt Calamari und Tesseract als OCR-Engines sowie LAREX als GT-Editor
 
 <center>
 <img src="https://www.ocr4all.org/images/user-guide/workflow/LAREX_interface_with_automatic_segmentation_results.png" width="650px" />
@@ -655,18 +657,30 @@ count: false
 
 ---
 
-# Wege zur *Ground Truth*
+count: false
 
-- [eScriptorium](https://escriptorium.openiti.org/)
-    * Software zur Struktur- und Volltexterstellung
-    * unterstützt manuelle und automatische Bearbeitungen auf Seitenebene und werkspezifisches Training
-    * bündelt Kraken als OCR-Engine, enthält webbasierten GT-Editor
+# Wege zur *Ground Truth*: [OCR4all](https://www.ocr4all.org/)
+
+* Software zur Struktur- und Volltexterstellung
+* unterstützt manuelle und automatische Bearbeitungen auf Seitenebene
+* bündelt Calamari und Tesseract als OCR-Engines sowie LAREX als GT-Editor
+
+<center>
+<img src="https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/3e95b7c3-3b16-43fc-8f64-0c1c76cc5b84" alt="larex-transcription" width="650px" />
+</center>
+
 
 ---
 
-# Wege zur *Ground Truth*
+# Wege zur *Ground Truth*: [eScriptorium](https://escriptorium.openiti.org/)
 
-- [Aletheia](https://www.primaresearch.org/tools/Aletheia)
+* Software zur Struktur- und Volltexterstellung
+* unterstützt manuelle und automatische Bearbeitungen auf Seitenebene und werkspezifisches Training
+* bündelt Kraken als OCR-Engine, enthält webbasierten GT-Editor
+
+---
+
+# Wege zur *Ground Truth*: [Aletheia](https://www.primaresearch.org/tools/Aletheia)
 
 <center>
 <img src="https://cdn.wpmeducation.com/53544f/9b62a1e054/3B44-311A-423B-9F17-A3D4.jpg" width="450px" />
@@ -674,19 +688,31 @@ count: false
 
 ---
 
-# Wege zur *Ground Truth*
+# Wege zur *Ground Truth*: [Transkribus](https://readcoop.eu/de/transkribus/)
 
-- [Transkribus](https://readcoop.eu/de/transkribus/)
+<center>
+  <img src="https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/6c7c7fd5-e86b-40ce-8eb6-df99e27acc60" alt="transkribus_desktop"/>
+</center>
+
+<table>
+  <tr>
+    <td>
+      <img src="https://readcoop.eu/wp-content/uploads/2021/04/transkribus-preview.jpg"/>
+    </td>
+    <td>
+      <img src="https://readcoop.eu/wp-content/uploads/2021/04/transcribe-1024x476.jpg"/>
+    </td>
+  </tr>
+</table>
 
 ---
 
-# Wege zur *Ground Truth*
+# Wege zur *Ground Truth*: Werkzeuge im Vergleich
 
-- Werkzeugvergleich
     + Versionsverwaltung problematisieren
     + Features
         * Offenheit: Quellcodes, Daten, Modelle, Betriebs
-        * automatische Erkennung Text bzw. Layout
+        * automatische Erkennung Text bzw. Layout (Vorverarbeitung)
         * Trainingsmöglichkeiten Text bzw. Layout
         * Datenformate
         * Kollaboration
@@ -755,7 +781,9 @@ count: false
 6. generierte `METADATA.yml` per _Add file_ hochladen
 7. eine Release `v1.0.0` anlegen und Github Action abwarten
 8. Deployment ansehen und Release-Assets herunterladen
-
+9. (`METADATA.yml` bei [HTR-United](https://htr-united.github.io/#provide-data) 
+   per [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) 
+   [registrieren](https://github.com/HTR-United/htr-united/tree/master/catalog))
 
 ---
 
@@ -776,7 +804,7 @@ count: false
   Optimierung der Hyperparameter
 - Anwendung des neuen Modells, **Alignierung**  
   Vergleich Transkription-Prädiktion
-- Auswertungen...
+- Auswertung...
 
 ---
 
@@ -786,10 +814,10 @@ count: false
 .fourty[
 
 - Vorverarbeitung, Bereinigung, Normalisierung ...
-- Bsp. [randomisierter Schnitt](https://github.com/bertsky/test-gt/wiki/Splitting-Dataset)
-- Bsp. [Trainingsprozedur Kraken](https://github.com/bertsky/test-gt/wiki/Kraken-Training)
-- Bsp. [Trainingsprozedur Calamari1](https://github.com/bertsky/test-gt/wiki/Calamari1-Training)
-- Bsp. [Trainingsprozedur Tesseract](https://github.com/bertsky/test-gt/wiki/Tesseract-Training)
+- Bsp. [randomisierter Datenschnitt](https://github.com/bertsky/test-gt/wiki/Splitting-Dataset)
+- Bsp. [Kraken Trainingsprozedur](https://github.com/bertsky/test-gt/wiki/Kraken-Training)
+- Bsp. [Calamari1 Trainingsprozedur](https://github.com/bertsky/test-gt/wiki/Calamari1-Training)
+- Bsp. [Tesseract Trainingsprozedur](https://github.com/bertsky/test-gt/wiki/Tesseract-Training)
 
 ]
 .sixty[
@@ -804,13 +832,13 @@ count: false
 # Trainingseffekte: Auswertungen
 
 - Ausreißer und Varianz  
-  → Lücken und Fehler (in Segmentierung oder Transkription)
+  → Lücken und **Fehler** (in Segmentierung oder Transkription)
 - Konfusionstabelle, Kreuz-Histogramm  
-  → Konsistenz, Einhaltung der Transkriptionsrichtlinien
+  → **Konsistenz**, Einhaltung der [**Transkriptionsrichtlinien**](https://ocr-d.de/en/gt-guidelines/trans/)
 - Unterschiede zwischen Prädiktion (OCR) und Transkription (GT)  
-  → Konsolidierung (OCR-Schwachstellen, GT-Flüchtigkeitsfehler)
+  → **Konsolidierung** (OCR-Schwachstellen,GT-Flüchtigkeitsfehler)
 - Aufteilung in bekannte Untermengen  
-   → Repräsentativität und Generalisierbarkeit (z.B. Schreiber, Materialität)
+   → Repräsentativität und **Generalisierbarkeit** (z.B. Schreiber, Materialität)
 
 ---
 
@@ -954,9 +982,7 @@ count: false
 
 ---
 
-# Trainingseffekte
-
-## Auswertungsbsp.: Schreiber
+# Trainingseffekte: Auswertungsbsp. _Schreiber_
 
 <div class="my-table"></div>
 
