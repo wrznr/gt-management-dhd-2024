@@ -633,13 +633,16 @@ count: false
 
 # Wege zur *Ground Truth*
 
-- eScriptorium
+- [eScriptorium](https://escriptorium.openiti.org/)
+    * Software zur Struktur- und Volltexterstellung
+    * unterstützt manuelle und automatische Bearbeitungen auf Seitenebene und werkspezifisches Training
+    * bündelt Kraken als OCR-Engine, enthält webbasierten GT-Editor
 
 ---
 
 # Wege zur *Ground Truth*
 
-- Aletheia
+- [Aletheia](https://www.primaresearch.org/tools/Aletheia)
 
 ---
 
