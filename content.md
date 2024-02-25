@@ -666,6 +666,12 @@ count: false
 
 ![larex-lines-coords-err](https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/d2f27128-71ed-426f-89a8-ccae6ec4611b)
 
+---
+
+# Trainingseffekte
+
+## Auswertungsbsp.: Transkriptionsrichtlinien
+
 
 ![larex-view-insert](https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/5d51358b-e787-489d-ab84-52d49c3c4d32)
 
@@ -676,8 +682,7 @@ count: false
 
 ## Auswertungsbsp.: Transkriptionsfehler
 
-![larex-diff-misaligned](https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/8739470d-a621-4127-bd5a-92655890405d)
-
+<img src="https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/8739470d-a621-4127-bd5a-92655890405d" alt="larex-diff-misaligned" width="50%"/>
 
 ---
 
@@ -688,7 +693,87 @@ count: false
 <div class="cols">
 <div class="fourty">
 <center>
-  
+
+<table data-sourcepos="697:1-709:24">
+<thead>
+<tr data-sourcepos="697:1-697:38">
+<th data-sourcepos="697:2-697:9"><strong>f#</strong></th>
+<th data-sourcepos="697:11-697:18"><strong>f%</strong></th>
+<th data-sourcepos="697:20-697:27"><strong>GT</strong></th>
+<th data-sourcepos="697:29-697:37"><strong>OCR</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr data-sourcepos="699:1-699:27">
+<td data-sourcepos="699:2-699:6">696</td>
+<td data-sourcepos="699:8-699:13">18.4</td>
+<td data-sourcepos="699:15-699:19"><code>s</code></td>
+<td data-sourcepos="699:21-699:26"><code>ſ</code></td>
+</tr>
+<tr data-sourcepos="700:1-700:26">
+<td data-sourcepos="700:2-700:6">107</td>
+<td data-sourcepos="700:8-700:12">2.8</td>
+<td data-sourcepos="700:14-700:19"><code>ſ</code></td>
+<td data-sourcepos="700:21-700:25"><code>s</code></td>
+</tr>
+<tr data-sourcepos="701:1-701:26">
+<td data-sourcepos="701:2-701:5">73</td>
+<td data-sourcepos="701:7-701:11">1.9</td>
+<td data-sourcepos="701:13-701:17"><code>-</code></td>
+<td data-sourcepos="701:19-701:25"><code>⸗</code></td>
+</tr>
+<tr data-sourcepos="702:1-702:24">
+<td data-sourcepos="702:2-702:5">48</td>
+<td data-sourcepos="702:7-702:11">1.2</td>
+<td data-sourcepos="702:13-702:17"><code>m</code></td>
+<td data-sourcepos="702:19-702:23"><code>n</code></td>
+</tr>
+<tr data-sourcepos="703:1-703:26">
+<td data-sourcepos="703:2-703:5">33</td>
+<td data-sourcepos="703:7-703:11">0.9</td>
+<td data-sourcepos="703:13-703:19"><code>⸗</code></td>
+<td data-sourcepos="703:21-703:25"><code>-</code></td>
+</tr>
+<tr data-sourcepos="704:1-704:24">
+<td data-sourcepos="704:2-704:5">32</td>
+<td data-sourcepos="704:7-704:11">0.8</td>
+<td data-sourcepos="704:13-704:17"><code>u</code></td>
+<td data-sourcepos="704:19-704:23"><code>n</code></td>
+</tr>
+<tr data-sourcepos="705:1-705:24">
+<td data-sourcepos="705:2-705:5">23</td>
+<td data-sourcepos="705:7-705:11">0.6</td>
+<td data-sourcepos="705:13-705:17"><code>n</code></td>
+<td data-sourcepos="705:19-705:23"><code>m</code></td>
+</tr>
+<tr data-sourcepos="706:1-706:24">
+<td data-sourcepos="706:2-706:5">20</td>
+<td data-sourcepos="706:7-706:11">0.5</td>
+<td data-sourcepos="706:13-706:17"><code>a</code></td>
+<td data-sourcepos="706:19-706:23"><code>e</code></td>
+</tr>
+<tr data-sourcepos="707:1-707:25">
+<td data-sourcepos="707:2-707:5">19</td>
+<td data-sourcepos="707:7-707:11">0.5</td>
+<td data-sourcepos="707:13-707:18"><code>ö</code></td>
+<td data-sourcepos="707:20-707:24"><code>o</code></td>
+</tr>
+<tr data-sourcepos="708:1-708:25">
+<td data-sourcepos="708:2-708:5">19</td>
+<td data-sourcepos="708:7-708:11">0.5</td>
+<td data-sourcepos="708:13-708:18"><code>ä</code></td>
+<td data-sourcepos="708:20-708:24"><code>a</code></td>
+</tr>
+<tr data-sourcepos="709:1-709:24">
+<td data-sourcepos="709:2-709:5">19</td>
+<td data-sourcepos="709:7-709:11">0.5</td>
+<td data-sourcepos="709:13-709:17"><code>r</code></td>
+<td data-sourcepos="709:19-709:23"><code>e</code></td>
+</tr>
+</tbody>
+</table>
+
+<!--
 | **f#** | **f%** | **GT** | **OCR** |
 | --- | --- | --- | --- |
 | 696 | 18.4 | `s` | `ſ` |
@@ -702,13 +787,18 @@ count: false
 | 19 | 0.5 | `ö` | `o` |
 | 19 | 0.5 | `ä` | `a` |
 | 19 | 0.5 | `r` | `e` |
+-->
 
 </center>
 </div>
 <div class="sixty">
 <center>
-  
+
+<img src="https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/cfb69f99-d929-4750-a5a2-8e661822d20b" alt="larex-diff-long-round-s"/>
+
+<!--
 ![larex-diff-long-round-s](https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/cfb69f99-d929-4750-a5a2-8e661822d20b)
+-->
 
 </center>
 </div>
