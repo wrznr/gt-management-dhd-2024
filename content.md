@@ -545,9 +545,9 @@ count: false
 .sixty[
 - Ziel: (nahezu) fehlerfrei transkribierte Volltexte **und** deren Lokalisierung auf dem entsprechenden Digitalisiat
     * Unterteilung in drei jeweils distinkte Teile
-        + (60 %) **Trainingsdaten**: Schätzung der **Modellparameter** (e.g. Übergangswahrscheinlichkeiten)
-        + (20 %) **Validierungsdaten**: Schätzung der **Hyperparameter** (e.g. Modellarchitektur)
-        + (20 %) **Testdaten**: Überprüfung der **Güte** der Schätzung
+        + (80 %) **Trainingsdaten**: Schätzung der **Modellparameter** (e.g. Übergangswahrscheinlichkeiten)
+        + (10 %) **Validierungsdaten**: Schätzung der **Hyperparameter** (e.g. Modellarchitektur)
+        + (10 %) **Testdaten**: Überprüfung der **Güte** der Schätzung
 - Rezept
     * Zeilen markieren
     * Text abschreiben
@@ -579,15 +579,45 @@ count: false
     * Texteditor und Graphikprogramm bzw. spezialisierte Tools, z.B.
         + [OCR4all](https://www.ocr4all.org/)
         + [eScriptorium](https://escriptorium.openiti.org/)
-        + [Tesstrain](https://github.com/tesseract-ocr/tesstrain)
+        + [Aletheia](https://www.primaresearch.org/tools/Aletheia)
     * **Publikationsinfrastruktur**: [HTR-United](https://htr-united.github.io/)
 
 ---
 
 # Wege zur *Ground Truth*
 
-- Workflows...
-- Tools...
+- Workflow-Illustration
+    * manuelle Segmentierung weniger fehleranfällig dafür sehr zeitaufwendig
+    * Transkription im Double-Keying-Verfahren
+    * Vereinigung typischerweise durch Differenzauflösung oder bei mehr als zwei Transkriptionen via Mehrheitsentscheid
+
+<center>
+<a href="img/Normalvorgehen.svg"><img src="img/Normalvorgehen.svg" width="950px" /></a>
+</center>
+
+---
+
+# Wege zur *Ground Truth*
+
+- OCR4all
+
+---
+
+# Wege zur *Ground Truth*
+
+- eScriptorium
+
+---
+
+# Wege zur *Ground Truth*
+
+- Aletheia
+
+---
+
+# Wege zur *Ground Truth*
+
+- Werkzeugvergleich
 
 ---
 
