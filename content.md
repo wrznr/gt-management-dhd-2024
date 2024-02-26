@@ -713,7 +713,7 @@ count: false
 
 # Wege zur *Ground Truth*: Werkzeuge im Vergleich
 
-| **Werkzeug** | **Offenheit** | **Datenformate** | **UM** | **VC** | **IX** | **Vorverarbeitung** | **Training** | 
+| **Werkzeug** | **Offenheit** | **Datenformate** | **UM** | **VC** | **SX** | **Vorverarbeitung** | **Training** | 
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **OCR4all** | Code, Modelle | METS, PAGE | ? | ? | ? | OLR, OCR | OCR (werkspez.) |
 | **eScriptorium** | Code, Modelle | IIIF, (PAGE), (ALTO) | ja | ja | (ja) | OLR, OCR | OLR, OCR (werkspez.) |
@@ -722,6 +722,7 @@ count: false
 
 - VC: Versionsverwaltung
 - UM: Kollaborationsunterstützung
+- SX: Durchsuchbarkeit
 
 <!--
 * Adressierbarkeit
@@ -1081,9 +1082,30 @@ count: false
 
 # Wege zur *Ground Truth* rev.: Alignierung
 
-- direkte Tool-Unterstützung: eScriptorium, Transkribus
+- direkte Tool-Unterstützung: Transkribus, **eScriptorium**:
+
+![escriptorium-align1](https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/433fa02f-1a1b-4dac-800f-39c3b5a5c11b)
+
+---
+
+count: false
+
+# Wege zur *Ground Truth* rev.: Alignierung
+
+- direkte Tool-Unterstützung: Transkribus, **eScriptorium**:
+
+![escriptorium-align2](https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/4cd4f9cb-84c2-43dc-9609-ecdeca889eaa)
 
 
+---
+
+count: false
+
+# Wege zur *Ground Truth* rev.: Alignierung
+
+- direkte Tool-Unterstützung: Transkribus, **eScriptorium**:
+
+![escriptorium-align3](https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/39513884-1ad1-482e-9e67-7d80e4dfe6a6)
 
 ---
 
