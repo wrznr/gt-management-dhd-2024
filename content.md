@@ -45,6 +45,8 @@ count: false
 # Edierst Du noch oder trainierst Du schon?
 ## Datenmanagement für Trainingsdaten für die automatische Texterkennung
 
+https://wrznr.github.io/gt-management-dhd-2024
+
 ---
 
 # Overview
@@ -54,7 +56,7 @@ count: false
 - **Datenmangement für Trainingsdaten**  
   (praktischer Teil)
 - Trainingseffekte
-- Diskussion, Ausblick und ein Wort zu Transkribus
+- Wege zur *Ground Truth*, revisited
 
 ---
 
@@ -692,9 +694,9 @@ count: false
 
 # Wege zur *Ground Truth*: [Transkribus](https://readcoop.eu/de/transkribus/)
 
-<center>
-  <img src="https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/6c7c7fd5-e86b-40ce-8eb6-df99e27acc60" alt="transkribus_desktop" width="60%"/>
-</center>
+* Software zur Struktur- und Volltexterstellung
+* manuelle und automatische Annotation, bel. Training
+* mit HTR+ und PyLaia als OCR-Engine, enthält GT-Editor
 
 <table>
   <tr>
@@ -711,18 +713,20 @@ count: false
 
 # Wege zur *Ground Truth*: Werkzeuge im Vergleich
 
-+ Versionsverwaltung problematisieren
-+ Features
-    * Offenheit: Quellcodes, Daten, Modelle, Betriebs
-    * automatische Erkennung Text bzw. Layout
-    * Trainingsmöglichkeiten Text bzw. Layout
-    * Datengranularität
-    * Datenformate
-    * Kollaboration
-    * Versionskontrolle
-    * Adressierbarkeit
-    * Durchsuchbarkeit
-    * persistente Identifizierung
+| **Werkzeug** | **Offenheit** | **Datenformate** | **UM** | **VC** | **IX** | **Vorverarbeitung** | **Training** | 
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| **OCR4all** | Code, Modelle | METS, PAGE | ? | ? | ? | OLR, OCR | OCR (werkspez.) |
+| **eScriptorium** | Code, Modelle | IIIF, (PAGE), (ALTO) | ja | ja | (ja) | OLR, OCR | OLR, OCR (werkspez.) |
+| **Aletheia** | - | (METS), PAGE | nein | nein | nein | - | - |
+| **Transkribus** | - | (PAGE), ALTO | ja | ja | ? | OLR, OCR| OLR, OCR |
+
+- VC: Versionsverwaltung
+- UM: Kollaborationsunterstützung
+
+<!--
+* Adressierbarkeit
+* persistente Identifizierung
+-->
 
 ---
 
@@ -1029,6 +1033,28 @@ count: false
 
 ---
 
+# Wege zur *Ground Truth* rev.: Rollenaufteilung
+
+- Arbeitskraft: Beitrag durch Freiwillige
+    * (regionales) Interesse und Sichtbarkeit der Arbeit
+- Technik: Optimierung der Rahmenbedingungen
+    * Unterstützung manueller Arbeit durch automatische Schritte
+- Datenkompetenz: Organisation der Abläufe
+    * Vermittlung von Grundkenntnissen
+    * Konsolidierung und Inwertsetzung der Arbeit
+<center>
+<img src="img/ehrenamt.png" width="450px" />
+</center>
+
+<!-- hier eventuell eine Folie zu weiteren begrifflichen Unterscheidungen:
+- Transkriptionszwecke (Textkorpus/Digitaledition vs. Training/GT)
+- Zielgruppen (nicht/professionell, Domäne/Technik)
+- geschlossene vs. offene Systeme
+
+--> 
+
+---
+
 # Wege zur *Ground Truth* rev.: Soldatenbriefe
 
 - Dissertationsprojekt Soldatenbriefe Deutsch-Französischer Krieg 1870/71 (Dominik Hetjens, TU Dresden)
@@ -1040,16 +1066,24 @@ count: false
 
 ---
 
-# Wege zur *Ground Truth* rev.: Forced Alignment
+# Wege zur *Ground Truth* rev.: Alignierung
 
-- typischer Fall: hochwertige Transkription **ohne** Bezug zum Digitalisat
+- typischer Fall: hochwertige Transkription **ohne** visuellen Bezug zum Digitalisat, z.B.
     + wissenschaftliche Edition
     + Wikisource
     + Deutsches Textarchiv
-- nachträgliche Verbindung auf Zeilenebene durch **Forced Alignment**
+- nachträgliche Rekonstruktion:
     + OLR zur Ermittlung der Zeilenkoordinaten
     + OCR zur Ermittlung einer Referenztranskription
-    + Vergleich beider Transkriptionen zur Rekonstruktion des Text-Bild-Alignments
+    + **Alignierung** beider Transkriptionen zur Text-Bild-Verbindung der hochwertigen Transkription
+
+---
+
+# Wege zur *Ground Truth* rev.: Alignierung
+
+- direkte Tool-Unterstützung: eScriptorium, Transkribus
+
+
 
 ---
 
@@ -1065,26 +1099,10 @@ count: false
 
 ---
 
-# Wege zur *Ground Truth* rev.: Rollenaufteilung
-
-- Arbeitskraft: Beitrag durch Freiwillige
-    * (regionales) Interesse und Sichtbarkeit der Arbeit
-- Technik: Optimierung der Rahmenbedingungen
-    * Unterstützung manueller Arbeit durch automatische Schritte
-- Datenkompetenz: Organisation der Abläufe
-    * Vermittlung von Grundkenntnissen
-    * Konsolidierung und Inwertsetzung der Arbeit
-
-<center>
-<img src="img/ehrenamt.png" width="450px" />
-</center>
-
----
-
 # Wege zur *Ground Truth* rev.: Podcast
 
 - Podcast [*Alte Schriften*](https://open.spotify.com/show/4DFXzITmsHlJiwC3OsRp5l?si=_9OJbAc_TFeceTFvxzuGSA)
-- „Retextualisierung“ mittels automatischer Spracherkennung
+- „Retextualisierung“ mittels automatischer Spracherkennung (ASR)
 
 <center>
 <a href="img/Herrnhut-Podcasts.svg"><img src="img/Herrnhut-Podcasts.svg" width="950px" /></a>
@@ -1102,9 +1120,10 @@ count: false
 
 - Reduktion technischer Hürden und manuellen Aufwands
     + Transkription *ohne* Transkription
-    + dafür automatisch: OLR und Alignierung von OCR und Transkription (via ASR)
+    + dafür automatisch: OLR+OCR, ASR, Alignierung
 
   → Kompromiss zwischen Aufwand für weitestmögliche Automatisierung und Umfang der manuellen Nachbearbeitung
+
 
 ---
 
