@@ -685,6 +685,31 @@ count: false
 * manuelle und automatische Annotation, werkspez. Training
 * mit Kraken als OCR-Engine, enthält GT-Editor
 
+![escriptorium-ui1](https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/671df72f-3dc4-4860-8161-8fa8e242ddbe)
+
+---
+
+count: false
+
+# Wege zur *Ground Truth*: [eScriptorium](https://escriptorium.openiti.org/)
+
+* Software zur Struktur- und Volltexterstellung
+* manuelle und automatische Annotation, werkspez. Training
+* mit Kraken als OCR-Engine, enthält GT-Editor
+
+![escriptorium-ui2](https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/551dd1a4-b5d0-4ac8-ad8e-7c50bc8a3779)
+
+---
+
+count: false
+
+# Wege zur *Ground Truth*: [eScriptorium](https://escriptorium.openiti.org/)
+
+* Software zur Struktur- und Volltexterstellung
+* manuelle und automatische Annotation, werkspez. Training
+* mit Kraken als OCR-Engine, enthält GT-Editor
+
+![escriptorium-ui3](https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/8f56ea18-2777-4646-81b9-92ddc8b1346d)
 
 
 ---
