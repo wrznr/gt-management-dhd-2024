@@ -549,8 +549,8 @@ count: false
 .sixty[
 - Ziel: (nahezu) fehlerfrei transkribierte Volltexte **und** deren Lokalisierung auf dem entsprechenden Digitalisat
     * Unterteilung in drei jeweils Teile
-        + ~80 % **Trainingsdaten**: Schätzung der **Modellparameter** (Übergangswahrscheinlichkeiten)
-        + ~10 % **Validierungsdaten**: Schätzung der **Hyperparameter** (Modellarchitektur)
+        + ~80 % **Trainingsdaten**: Schätzung der **Modellparameter** (=Übergangswahrscheinlkn.)
+        + ~10 % **Validierungsdaten**: Schätzung der **Hyperparameter** (=Modellarchitektur)
         + ~10 % **Testdaten**: Überprüfung der **Güte** der Schätzung
 - Rezept
     * Zeilen markieren
@@ -574,8 +574,8 @@ count: false
 .sixty[
 - Ziel: (nahezu) fehlerfrei transkribierte Volltexte **und** deren Lokalisierung auf dem entsprechenden Digitalisat
     * Unterteilung in drei jeweils Teile
-        + ~80 % **Trainingsdaten**: Schätzung der **Modellparameter** (Übergangswahrscheinlichkeiten)
-        + ~10 % **Validierungsdaten**: Schätzung der **Hyperparameter** (Modellarchitektur)
+        + ~80 % **Trainingsdaten**: Schätzung der **Modellparameter** (=Übergangswahrscheinlkn.)
+        + ~10 % **Validierungsdaten**: Schätzung der **Hyperparameter** (=Modellarchitektur)
         + ~10 % **Testdaten**: Überprüfung der **Güte** der Schätzung
 - Rezept
     * Zeilen markieren
@@ -613,8 +613,7 @@ count: false
 * manuelle Segmentierung weniger fehleranfällig,  
   dafür sehr zeitaufwendig
 * Transkription im **Double-Keying**-Verfahren
-* abweichende Zeilen entweder entfernen,  
-  oder bei mehr als zwei Transkriptionen:
+* abweichende Zeilen entfernen oder (wenn >2)
   - Kontrollentscheid
   - Mehrheitsentscheid
 
@@ -719,7 +718,7 @@ count: false
 
 ---
 
-# Wege zur *Ground Truth*: Werkzeuge im Vergleich
+# Wege zur *Ground Truth*: Werkzeugvergleich
 
 | **Werkzeug** | **Offenheit** | **Datenformate** | **UM** | **VC** | **SX** | **Vorverarbeitung** | **Training** | 
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -1036,9 +1035,19 @@ count: false
     * gleichzeitig **manuelle** Aufwände i.A. nicht abbildbar
 - Rollenaufteilung im Zusammenspiel
     * aus Technik, Datenkompetenz und Arbeitskraft
+
+<div class="cols">
+<div class="fifty">
 <center>
 <img src="img/components.svg" width="350px" />
 </center>
+</div>
+<div class="fifty">
+<center>
+<img src="img/ehrenamt.png" width="450px" />
+</center>
+</div>
+</div>
 
 ---
 
@@ -1051,9 +1060,6 @@ count: false
 - Datenkompetenz: Organisation der Abläufe
     * Vermittlung von Grundkenntnissen
     * Konsolidierung und Inwertsetzung der Arbeit
-<center>
-<img src="img/ehrenamt.png" width="450px" />
-</center>
 
 <!-- hier eventuell eine Folie zu weiteren begrifflichen Unterscheidungen:
 - Transkriptionszwecke (Textkorpus/Digitaledition vs. Training/GT)
@@ -1104,7 +1110,7 @@ count: false
 - direkte Tool-Unterstützung: Transkribus, **eScriptorium**:
 
 <center>
-  <img src="https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/4cd4f9cb-84c2-43dc-9609-ecdeca889eaa" alt="escriptorium-align2" width="100px"/>
+  <img src="https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/4cd4f9cb-84c2-43dc-9609-ecdeca889eaa" alt="escriptorium-align2" width="300px"/>
 </center>
 
 
@@ -1117,6 +1123,8 @@ count: false
 - direkte Tool-Unterstützung: Transkribus, **eScriptorium**:
 
 ![escriptorium-align3](https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/39513884-1ad1-482e-9e67-7d80e4dfe6a6)
+
+<!-- ℓ: Suspensionsschleife -->
 
 ---
 
@@ -1135,7 +1143,7 @@ count: false
 # Wege zur *Ground Truth* rev.: Podcast
 
 - Podcast [*Alte Schriften*](https://open.spotify.com/show/4DFXzITmsHlJiwC3OsRp5l?si=_9OJbAc_TFeceTFvxzuGSA)
-- „Retextualisierung“ mittels automatischer Spracherkennung (ASR)
+- zurück in Textform mittels automatischer Spracherkennung (ASR)
 
 <center>
 <a href="img/Herrnhut-Podcasts.svg"><img src="img/Herrnhut-Podcasts.svg" width="950px" /></a>
