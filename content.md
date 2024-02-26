@@ -35,6 +35,9 @@ layout: true
       <td style="font-size:8pt">DHd 2024</td>
     </tr>
   </table>
+  <p>
+    <a href="https://wrznr.github.io/gt-management-dhd-2024">wrznr.github.io/gt-management-dhd-2024</a>
+  </p>
 </div>
 
 ---
@@ -45,7 +48,6 @@ count: false
 # Edierst Du noch oder trainierst Du schon?
 ## Datenmanagement für Trainingsdaten für die automatische Texterkennung
 
-https://wrznr.github.io/gt-management-dhd-2024
 
 ---
 
@@ -545,11 +547,11 @@ count: false
 
 .cols[
 .sixty[
-- Ziel: (nahezu) fehlerfrei transkribierte Volltexte **und** deren Lokalisierung auf dem entsprechenden Digitalisiat
-    * Unterteilung in drei jeweils distinkte Teile
-        + (80 %) **Trainingsdaten**: Schätzung der **Modellparameter** (e.g. Übergangswahrscheinlichkeiten)
-        + (10 %) **Validierungsdaten**: Schätzung der **Hyperparameter** (e.g. Modellarchitektur)
-        + (10 %) **Testdaten**: Überprüfung der **Güte** der Schätzung
+- Ziel: (nahezu) fehlerfrei transkribierte Volltexte **und** deren Lokalisierung auf dem entsprechenden Digitalisat
+    * Unterteilung in drei jeweils Teile
+        + ~80 % **Trainingsdaten**: Schätzung der **Modellparameter** (Übergangswahrscheinlichkeiten)
+        + ~10 % **Validierungsdaten**: Schätzung der **Hyperparameter** (Modellarchitektur)
+        + ~10 % **Testdaten**: Überprüfung der **Güte** der Schätzung
 - Rezept
     * Zeilen markieren
     * Text abschreiben
@@ -570,11 +572,11 @@ count: false
 
 .cols[
 .sixty[
-- Ziel: (nahezu) fehlerfrei transkribierte Volltexte **und** deren Lokalisierung auf dem entsprechenden Digitalisiat
-    * Unterteilung in drei jeweils distinkte Teile
-        + (80 %) **Trainingsdaten**: Schätzung der **Modellparameter** (e.g. Übergangswahrscheinlichkeiten)
-        + (10 %) **Validierungsdaten**: Schätzung der **Hyperparameter** (e.g. Modellarchitektur)
-        + (10 %) **Testdaten**: Überprüfung der **Güte** der Schätzung
+- Ziel: (nahezu) fehlerfrei transkribierte Volltexte **und** deren Lokalisierung auf dem entsprechenden Digitalisat
+    * Unterteilung in drei jeweils Teile
+        + ~80 % **Trainingsdaten**: Schätzung der **Modellparameter** (Übergangswahrscheinlichkeiten)
+        + ~10 % **Validierungsdaten**: Schätzung der **Hyperparameter** (Modellarchitektur)
+        + ~10 % **Testdaten**: Überprüfung der **Güte** der Schätzung
 - Rezept
     * Zeilen markieren
     * Text abschreiben
@@ -608,9 +610,13 @@ count: false
 
 # Wege zur *Ground Truth*: Workflows
 
-* manuelle Segmentierung weniger fehleranfällig dafür sehr zeitaufwendig
-* Transkription im Double-Keying-Verfahren
-* Vereinigung typischerweise durch Differenzauflösung oder bei mehr als zwei Transkriptionen via Mehrheitsentscheid
+* manuelle Segmentierung weniger fehleranfällig,  
+  dafür sehr zeitaufwendig
+* Transkription im **Double-Keying**-Verfahren
+* abweichende Zeilen entweder entfernen,  
+  oder bei mehr als zwei Transkriptionen:
+  - Kontrollentscheid
+  - Mehrheitsentscheid
 
 <center>
 <a href="img/Normalvorgehen.svg"><img src="img/Normalvorgehen.svg" width="950px" /></a>
@@ -623,12 +629,12 @@ count: false
 * GUI für Segment- und Texterkennung und -korrektur, z.B.
     + [OCR4all](https://www.ocr4all.org/)
     + [eScriptorium](https://escriptorium.openiti.org/)
-    + [Aletheia](https://www.primaresearch.org/tools/Aletheia)
     + ([Transkribus](https://readcoop.eu/de/transkribus/))
+    + [Aletheia](https://www.primaresearch.org/tools/Aletheia)
 * Publikationsinfrastruktur
     + [HTR-United](https://htr-united.github.io/)
     + [Zenodo](https://zenodo.org/communities/ocr_models/records)
-    + [OCR-D-GT](https://github.com/OCR-D/gt-repo-template)
+    + [**OCR-D-GT**](https://github.com/OCR-D/gt-repo-template)
 
 
 ---
@@ -680,15 +686,7 @@ count: false
 * manuelle und automatische Annotation, werkspez. Training
 * mit Kraken als OCR-Engine, enthält GT-Editor
 
----
 
-# Wege zur *Ground Truth*: [Aletheia](https://www.primaresearch.org/tools/Aletheia)
-
-* vollständiger GT-Editor für [PAGE-XML](https://github.com/PRImA-Research-Lab/PAGE-XML)
-
-<center>
-<img src="https://cdn.wpmeducation.com/53544f/9b62a1e054/3B44-311A-423B-9F17-A3D4.jpg" width="450px" />
-</center>
 
 ---
 
@@ -711,17 +709,27 @@ count: false
 
 ---
 
+# Wege zur *Ground Truth*: [Aletheia](https://www.primaresearch.org/tools/Aletheia)
+
+* vollständiger GT-Editor für [PAGE-XML](https://github.com/PRImA-Research-Lab/PAGE-XML)
+
+<center>
+<img src="https://cdn.wpmeducation.com/53544f/9b62a1e054/3B44-311A-423B-9F17-A3D4.jpg" width="450px" />
+</center>
+
+---
+
 # Wege zur *Ground Truth*: Werkzeuge im Vergleich
 
 | **Werkzeug** | **Offenheit** | **Datenformate** | **UM** | **VC** | **SX** | **Vorverarbeitung** | **Training** | 
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| **OCR4all** | Code, Modelle | METS, PAGE | ? | ? | ? | OLR, OCR | OCR (werkspez.) |
+| **OCR4all** | Code, Modelle | METS, PAGE | nein | nein | nein | OLR, OCR | OCR (werkspez.) |
 | **eScriptorium** | Code, Modelle | IIIF, (PAGE), (ALTO) | ja | ja | (ja) | OLR, OCR | OLR, OCR (werkspez.) |
-| **Aletheia** | - | (METS), PAGE | nein | nein | nein | - | - |
 | **Transkribus** | - | (PAGE), ALTO | ja | ja | ? | OLR, OCR| OLR, OCR |
+| **Aletheia** | - | (METS), PAGE | nein | nein | nein | - | - |
 
+- UM: Kollaboration
 - VC: Versionsverwaltung
-- UM: Kollaborationsunterstützung
 - SX: Durchsuchbarkeit
 
 <!--
@@ -790,7 +798,7 @@ count: false
 7. eine Release `v1.0.0` anlegen und Github Action abwarten
 8. Deployment ansehen und Release-Assets herunterladen
 9. (`METADATA.yml` bei [HTR-United](https://htr-united.github.io/#provide-data) 
-   per [PR](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) 
+   per [_PR_](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) 
    [registrieren](https://github.com/HTR-United/htr-united/tree/master/catalog))
 
 ---
@@ -999,18 +1007,18 @@ count: false
 | alles | 19618 | 1.6 |
 | train | 17622 | 1.4 |
 | val | 1996 | 3.3 |
-| train Hand 1 | 710 | **5.1** |
-| val Hand 1 | 64 | 3.1 |
-| train Hand 3 | 3179 | 2.8 |
-| val Hand 3 | 447 | 3.9 |
-| train Hand 4 | 1650 | 2.9 |
-| val Hand 4 | 313 | **8.3** |
-| train Hand 11 | 474 | **0.3** |
-| val Hand 11 | 142 | 2.5 |
-| train Hand 13 | 3926 | 0.2 |
-| val Hand 13 | 447 | 0.9 |
-| train Hand 14 | 328 | 0.5 |
-| val Hand 14 | 59 | 2.9 |
+| train Schreiber 1 | 710 | **5.1** |
+| val Schreiber 1 | 64 | 3.1 |
+| train Schreiber 3 | 3179 | 2.8 |
+| val Schreiber 3 | 447 | 3.9 |
+| train Schreiber 4 | 1650 | 2.9 |
+| val Schreiber 4 | 313 | **8.3** |
+| train Schreiber 11 | 474 | **0.3** |
+| val Schreiber 11 | 142 | 2.5 |
+| train Schreiber 13 | 3926 | 0.2 |
+| val Schreiber 13 | 447 | 0.9 |
+| train Schreiber 14 | 328 | 0.5 |
+| val Schreiber 14 | 59 | 2.9 |
 
 ---
 
@@ -1076,7 +1084,8 @@ count: false
 - nachträgliche Rekonstruktion:
     + OLR zur Ermittlung der Zeilenkoordinaten
     + OCR zur Ermittlung einer Referenztranskription
-    + **Alignierung** beider Transkriptionen zur Text-Bild-Verbindung der hochwertigen Transkription
+    + **Alignierung** beider Transkriptionen
+    + nur Text-Bild-Verbindung der hochwertigen Transkription behalten
 
 ---
 
@@ -1094,7 +1103,9 @@ count: false
 
 - direkte Tool-Unterstützung: Transkribus, **eScriptorium**:
 
-![escriptorium-align2](https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/4cd4f9cb-84c2-43dc-9609-ecdeca889eaa)
+<center>
+  <img src="https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/4cd4f9cb-84c2-43dc-9609-ecdeca889eaa" alt="escriptorium-align2" width="100px"/>
+</center>
 
 
 ---
