@@ -35,6 +35,9 @@ layout: true
       <td style="font-size:8pt">DHd 2024</td>
     </tr>
   </table>
+  <p>
+    <a href="https://wrznr.github.io/gt-management-dhd-2024">wrznr.github.io/gt-management-dhd-2024</a>
+  </p>
 </div>
 
 ---
@@ -45,6 +48,7 @@ count: false
 # Edierst Du noch oder trainierst Du schon?
 ## Datenmanagement für Trainingsdaten für die automatische Texterkennung
 
+
 ---
 
 # Overview
@@ -54,7 +58,7 @@ count: false
 - **Datenmangement für Trainingsdaten**  
   (praktischer Teil)
 - Trainingseffekte
-- Diskussion, Ausblick und ein Wort zu Transkribus
+- Wege zur *Ground Truth*, revisited
 
 ---
 
@@ -543,11 +547,11 @@ count: false
 
 .cols[
 .sixty[
-- Ziel: (nahezu) fehlerfrei transkribierte Volltexte **und** deren Lokalisierung auf dem entsprechenden Digitalisiat
-    * Unterteilung in drei jeweils distinkte Teile
-        + (80 %) **Trainingsdaten**: Schätzung der **Modellparameter** (e.g. Übergangswahrscheinlichkeiten)
-        + (10 %) **Validierungsdaten**: Schätzung der **Hyperparameter** (e.g. Modellarchitektur)
-        + (10 %) **Testdaten**: Überprüfung der **Güte** der Schätzung
+- Ziel: (nahezu) fehlerfrei transkribierte Volltexte **und** deren Lokalisierung auf dem entsprechenden Digitalisat
+    * Unterteilung in drei jeweils Teile
+        + ~80 % **Trainingsdaten**: Schätzung der **Modellparameter** (=Übergangswahrscheinlkn.)
+        + ~10 % **Validierungsdaten**: Schätzung der **Hyperparameter** (=Modellarchitektur)
+        + ~10 % **Testdaten**: Überprüfung der **Güte** der Schätzung
 - Rezept
     * Zeilen markieren
     * Text abschreiben
@@ -568,11 +572,11 @@ count: false
 
 .cols[
 .sixty[
-- Ziel: (nahezu) fehlerfrei transkribierte Volltexte **und** deren Lokalisierung auf dem entsprechenden Digitalisiat
-    * Unterteilung in drei jeweils distinkte Teile
-        + (80 %) **Trainingsdaten**: Schätzung der **Modellparameter** (e.g. Übergangswahrscheinlichkeiten)
-        + (10 %) **Validierungsdaten**: Schätzung der **Hyperparameter** (e.g. Modellarchitektur)
-        + (10 %) **Testdaten**: Überprüfung der **Güte** der Schätzung
+- Ziel: (nahezu) fehlerfrei transkribierte Volltexte **und** deren Lokalisierung auf dem entsprechenden Digitalisat
+    * Unterteilung in drei jeweils Teile
+        + ~80 % **Trainingsdaten**: Schätzung der **Modellparameter** (=Übergangswahrscheinlkn.)
+        + ~10 % **Validierungsdaten**: Schätzung der **Hyperparameter** (=Modellarchitektur)
+        + ~10 % **Testdaten**: Überprüfung der **Güte** der Schätzung
 - Rezept
     * Zeilen markieren
     * Text abschreiben
@@ -606,9 +610,12 @@ count: false
 
 # Wege zur *Ground Truth*: Workflows
 
-* manuelle Segmentierung weniger fehleranfällig dafür sehr zeitaufwendig
-* Transkription im Double-Keying-Verfahren
-* Vereinigung typischerweise durch Differenzauflösung oder bei mehr als zwei Transkriptionen via Mehrheitsentscheid
+* manuelle Segmentierung weniger fehleranfällig,  
+  dafür sehr zeitaufwendig
+* Transkription im **Double-Keying**-Verfahren
+* abweichende Zeilen entfernen oder (wenn >2)
+  - Kontrollentscheid
+  - Mehrheitsentscheid
 
 <center>
 <a href="img/Normalvorgehen.svg"><img src="img/Normalvorgehen.svg" width="950px" /></a>
@@ -621,12 +628,12 @@ count: false
 * GUI für Segment- und Texterkennung und -korrektur, z.B.
     + [OCR4all](https://www.ocr4all.org/)
     + [eScriptorium](https://escriptorium.openiti.org/)
+    + ([Transkribus](https://readcoop.eu/de/transkribus/))
     + [Aletheia](https://www.primaresearch.org/tools/Aletheia)
-    + [Transkribus](https://readcoop.eu/de/transkribus/)
 * Publikationsinfrastruktur
     + [HTR-United](https://htr-united.github.io/)
     + [Zenodo](https://zenodo.org/communities/ocr_models/records)
-    + [OCR-D-GT](https://github.com/OCR-D/gt-repo-template)
+    + [**OCR-D-GT**](https://github.com/OCR-D/gt-repo-template)
 
 
 ---
@@ -634,8 +641,8 @@ count: false
 # Wege zur *Ground Truth*: [OCR4all](https://www.ocr4all.org/)
 
 * Software zur Struktur- und Volltexterstellung
-* unterstützt manuelle und automatische Bearbeitungen auf Seitenebene
-* bündelt Calamari und Tesseract als OCR-Engines sowie LAREX als GT-Editor
+* manuelle und automatische Annotation, werkspez. Training
+* mit Calamari+Tesseract als OCR-Engine, LAREX als GT-Editor
 
 <center>
 <img src="https://www.ocr4all.org/images/user-guide/project_start_and_overview/project_overview_settings.jpg" width="650px" />
@@ -648,8 +655,8 @@ count: false
 # Wege zur *Ground Truth*: [OCR4all](https://www.ocr4all.org/)
 
 * Software zur Struktur- und Volltexterstellung
-* unterstützt manuelle und automatische Bearbeitungen auf Seitenebene
-* bündelt Calamari und Tesseract als OCR-Engines sowie LAREX als GT-Editor
+* manuelle und automatische Annotation, werkspez. Training
+* mit Calamari+Tesseract als OCR-Engine, LAREX als GT-Editor
 
 <center>
 <img src="https://www.ocr4all.org/images/user-guide/workflow/LAREX_interface_with_automatic_segmentation_results.png" width="650px" />
@@ -662,8 +669,8 @@ count: false
 # Wege zur *Ground Truth*: [OCR4all](https://www.ocr4all.org/)
 
 * Software zur Struktur- und Volltexterstellung
-* unterstützt manuelle und automatische Bearbeitungen auf Seitenebene
-* bündelt Calamari und Tesseract als OCR-Engines sowie LAREX als GT-Editor
+* manuelle und automatische Annotation, werkspez. Training
+* mit Calamari+Tesseract als OCR-Engine, LAREX als GT-Editor
 
 <center>
 <img src="https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/3e95b7c3-3b16-43fc-8f64-0c1c76cc5b84" alt="larex-transcription" width="650px" />
@@ -675,24 +682,43 @@ count: false
 # Wege zur *Ground Truth*: [eScriptorium](https://escriptorium.openiti.org/)
 
 * Software zur Struktur- und Volltexterstellung
-* unterstützt manuelle und automatische Bearbeitungen auf Seitenebene und werkspezifisches Training
-* bündelt Kraken als OCR-Engine, enthält webbasierten GT-Editor
+* manuelle und automatische Annotation, werkspez. Training
+* mit Kraken als OCR-Engine, enthält GT-Editor
+
+![escriptorium-ui1](https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/671df72f-3dc4-4860-8161-8fa8e242ddbe)
 
 ---
 
-# Wege zur *Ground Truth*: [Aletheia](https://www.primaresearch.org/tools/Aletheia)
+count: false
 
-<center>
-<img src="https://cdn.wpmeducation.com/53544f/9b62a1e054/3B44-311A-423B-9F17-A3D4.jpg" width="450px" />
-</center>
+# Wege zur *Ground Truth*: [eScriptorium](https://escriptorium.openiti.org/)
+
+* Software zur Struktur- und Volltexterstellung
+* manuelle und automatische Annotation, werkspez. Training
+* mit Kraken als OCR-Engine, enthält GT-Editor
+
+![escriptorium-ui2](https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/551dd1a4-b5d0-4ac8-ad8e-7c50bc8a3779)
+
+---
+
+count: false
+
+# Wege zur *Ground Truth*: [eScriptorium](https://escriptorium.openiti.org/)
+
+* Software zur Struktur- und Volltexterstellung
+* manuelle und automatische Annotation, werkspez. Training
+* mit Kraken als OCR-Engine, enthält GT-Editor
+
+![escriptorium-ui3](https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/8f56ea18-2777-4646-81b9-92ddc8b1346d)
+
 
 ---
 
 # Wege zur *Ground Truth*: [Transkribus](https://readcoop.eu/de/transkribus/)
 
-<center>
-  <img src="https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/6c7c7fd5-e86b-40ce-8eb6-df99e27acc60" alt="transkribus_desktop"/>
-</center>
+* Software zur Struktur- und Volltexterstellung
+* manuelle und automatische Annotation, bel. Training
+* mit HTR+ und PyLaia als OCR-Engine, enthält GT-Editor
 
 <table>
   <tr>
@@ -707,19 +733,33 @@ count: false
 
 ---
 
-# Wege zur *Ground Truth*: Werkzeuge im Vergleich
+# Wege zur *Ground Truth*: [Aletheia](https://www.primaresearch.org/tools/Aletheia)
 
-    + Versionsverwaltung problematisieren
-    + Features
-        * Offenheit: Quellcodes, Daten, Modelle, Betriebs
-        * automatische Erkennung Text bzw. Layout (Vorverarbeitung)
-        * Trainingsmöglichkeiten Text bzw. Layout
-        * Datenformate
-        * Kollaboration
-        * Versionskontrolle
-        * Adressierbarkeit
-        * Durchsuchbarkeit
-        * persistente Identifizierung
+* vollständiger GT-Editor für [PAGE-XML](https://github.com/PRImA-Research-Lab/PAGE-XML)
+
+<center>
+<img src="https://cdn.wpmeducation.com/53544f/9b62a1e054/3B44-311A-423B-9F17-A3D4.jpg" width="450px" />
+</center>
+
+---
+
+# Wege zur *Ground Truth*: Werkzeugvergleich
+
+| **Werkzeug** | **Offenheit** | **Datenformate** | **UM** | **VC** | **SX** | **Vorverarbeitung** | **Training** | 
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| **OCR4all** | Code, Modelle | METS, PAGE | nein | nein | nein | OLR, OCR | OCR (werkspez.) |
+| **eScriptorium** | Code, Modelle | IIIF, (PAGE), (ALTO) | ja | ja | (ja) | OLR, OCR | OLR, OCR (werkspez.) |
+| **Transkribus** | - | (PAGE), ALTO | ja | ja | ? | OLR, OCR| OLR, OCR |
+| **Aletheia** | - | (METS), PAGE | nein | nein | nein | - | - |
+
+- UM: Kollaboration
+- VC: Versionsverwaltung
+- SX: Durchsuchbarkeit
+
+<!--
+* Adressierbarkeit
+* persistente Identifizierung
+-->
 
 ---
 
@@ -782,7 +822,7 @@ count: false
 7. eine Release `v1.0.0` anlegen und Github Action abwarten
 8. Deployment ansehen und Release-Assets herunterladen
 9. (`METADATA.yml` bei [HTR-United](https://htr-united.github.io/#provide-data) 
-   per [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) 
+   per [_PR_](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) 
    [registrieren](https://github.com/HTR-United/htr-united/tree/master/catalog))
 
 ---
@@ -991,18 +1031,18 @@ count: false
 | alles | 19618 | 1.6 |
 | train | 17622 | 1.4 |
 | val | 1996 | 3.3 |
-| train Hand 1 | 710 | **5.1** |
-| val Hand 1 | 64 | 3.1 |
-| train Hand 3 | 3179 | 2.8 |
-| val Hand 3 | 447 | 3.9 |
-| train Hand 4 | 1650 | 2.9 |
-| val Hand 4 | 313 | **8.3** |
-| train Hand 11 | 474 | **0.3** |
-| val Hand 11 | 142 | 2.5 |
-| train Hand 13 | 3926 | 0.2 |
-| val Hand 13 | 447 | 0.9 |
-| train Hand 14 | 328 | 0.5 |
-| val Hand 14 | 59 | 2.9 |
+| train Schreiber 1 | 710 | **5.1** |
+| val Schreiber 1 | 64 | 3.1 |
+| train Schreiber 3 | 3179 | 2.8 |
+| val Schreiber 3 | 447 | 3.9 |
+| train Schreiber 4 | 1650 | 2.9 |
+| val Schreiber 4 | 313 | **8.3** |
+| train Schreiber 11 | 474 | **0.3** |
+| val Schreiber 11 | 142 | 2.5 |
+| train Schreiber 13 | 3926 | 0.2 |
+| val Schreiber 13 | 447 | 0.9 |
+| train Schreiber 14 | 328 | 0.5 |
+| val Schreiber 14 | 59 | 2.9 |
 
 ---
 
@@ -1020,44 +1060,9 @@ count: false
     * gleichzeitig **manuelle** Aufwände i.A. nicht abbildbar
 - Rollenaufteilung im Zusammenspiel
     * aus Technik, Datenkompetenz und Arbeitskraft
-<center>
-<img src="img/components.svg" width="350px" />
-</center>
-
----
-
-# Wege zur *Ground Truth* rev.: Soldatenbriefe
-
-- Dissertationsprojekt Soldatenbriefe Deutsch-Französischer Krieg 1870/71 (Dominik Hetjens, TU Dresden)
-- Zufallsfund: bürgerwissenschaftliche Edition
 
 <center>
-<a href="img/Soldatenbriefe.svg"><img src="img/Soldatenbriefe.svg" width="950px" /></a>
-</center>
-
----
-
-# Wege zur *Ground Truth* rev.: Forced Alignment
-
-- typischer Fall: hochwertige Transkription **ohne** Bezug zum Digitalisat
-    + wissenschaftliche Edition
-    + Wikisource
-    + Deutsches Textarchiv
-- nachträgliche Verbindung auf Zeilenebene durch **Forced Alignment**
-    + OLR zur Ermittlung der Zeilenkoordinaten
-    + OCR zur Ermittlung einer Referenztranskription
-    + Vergleich beider Transkriptionen zur Rekonstruktion des Text-Bild-Alignments
-
----
-
-# Wege zur *Ground Truth* rev.: MKN
-
-- Ehrenamtsprojekt *Gemeinnachrichten* (Leitung: Juan Garcés) im Rahmen des [Moravian Knowledge Network](https://dhh.hypotheses.org/)
-    * gemeinschaftliche Transkription: Vermittlung von Kurrent und editorischen Grundlagen
-    * Repräsentation in TEI: Vermittlung von Datenkompetenz
-
-<center>
-<a href="img/Herrnhut-Edition.svg"><img src="img/Herrnhut-Edition.svg" width="950px" /></a>
+<img src="img/components.svg" width="300px" />
 </center>
 
 ---
@@ -1073,7 +1078,85 @@ count: false
     * Konsolidierung und Inwertsetzung der Arbeit
 
 <center>
-<img src="img/ehrenamt.png" width="450px" />
+<img src="img/ehrenamt.png" width="350px" />
+</center>
+
+
+<!-- hier eventuell eine Folie zu weiteren begrifflichen Unterscheidungen:
+- Transkriptionszwecke (Textkorpus/Digitaledition vs. Training/GT)
+- Zielgruppen (nicht/professionell, Domäne/Technik)
+- geschlossene vs. offene Systeme
+
+--> 
+
+---
+
+# Wege zur *Ground Truth* rev.: Soldatenbriefe
+
+- Dissertationsprojekt Soldatenbriefe Deutsch-Französischer Krieg 1870/71 (Dominik Hetjens, TU Dresden)
+- Zufallsfund: bürgerwissenschaftliche Edition
+
+<center>
+<a href="img/Soldatenbriefe.svg"><img src="img/Soldatenbriefe.svg" width="950px" /></a>
+</center>
+
+---
+
+# Wege zur *Ground Truth* rev.: Alignierung
+
+- typischer Fall: hochwertige Transkription **ohne** visuellen Bezug zum Digitalisat, z.B.
+    + wissenschaftliche Edition
+    + Wikisource
+    + Deutsches Textarchiv
+- nachträgliche Rekonstruktion:
+    + OLR zur Ermittlung der Zeilenkoordinaten
+    + OCR zur Ermittlung einer Referenztranskription
+    + **Alignierung** beider Transkriptionen
+    + nur Text-Bild-Verbindung der hochwertigen Transkription behalten
+
+---
+
+# Wege zur *Ground Truth* rev.: Alignierung
+
+- direkte Tool-Unterstützung: Transkribus, **eScriptorium**:
+
+![escriptorium-align1](https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/433fa02f-1a1b-4dac-800f-39c3b5a5c11b)
+
+---
+
+count: false
+
+# Wege zur *Ground Truth* rev.: Alignierung
+
+- direkte Tool-Unterstützung: Transkribus, **eScriptorium**:
+
+<center>
+  <img src="https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/4cd4f9cb-84c2-43dc-9609-ecdeca889eaa" alt="escriptorium-align2" width="250px"/>
+</center>
+
+
+---
+
+count: false
+
+# Wege zur *Ground Truth* rev.: Alignierung
+
+- direkte Tool-Unterstützung: Transkribus, **eScriptorium**:
+
+![escriptorium-align3](https://github.com/wrznr/gt-management-dhd-2024/assets/38561704/39513884-1ad1-482e-9e67-7d80e4dfe6a6)
+
+<!-- ℓ: Suspensionsschleife -->
+
+---
+
+# Wege zur *Ground Truth* rev.: MKN
+
+- Ehrenamtsprojekt *Gemeinnachrichten* (Leitung: Juan Garcés) im Rahmen des [Moravian Knowledge Network](https://dhh.hypotheses.org/)
+    * gemeinschaftliche Transkription: Vermittlung von Kurrent und editorischen Grundlagen
+    * Repräsentation in TEI: Vermittlung von Datenkompetenz
+
+<center>
+<a href="img/Herrnhut-Edition.svg"><img src="img/Herrnhut-Edition.svg" width="950px" /></a>
 </center>
 
 ---
@@ -1081,7 +1164,7 @@ count: false
 # Wege zur *Ground Truth* rev.: Podcast
 
 - Podcast [*Alte Schriften*](https://open.spotify.com/show/4DFXzITmsHlJiwC3OsRp5l?si=_9OJbAc_TFeceTFvxzuGSA)
-- „Retextualisierung“ mittels automatischer Spracherkennung
+- zurück in Textform mittels automatischer Spracherkennung (ASR)
 
 <center>
 <a href="img/Herrnhut-Podcasts.svg"><img src="img/Herrnhut-Podcasts.svg" width="950px" /></a>
@@ -1099,9 +1182,10 @@ count: false
 
 - Reduktion technischer Hürden und manuellen Aufwands
     + Transkription *ohne* Transkription
-    + dafür automatisch: OLR und Alignierung von OCR und Transkription (via ASR)
+    + dafür automatisch: OLR+OCR, ASR, Alignierung
 
   → Kompromiss zwischen Aufwand für weitestmögliche Automatisierung und Umfang der manuellen Nachbearbeitung
+
 
 ---
 
