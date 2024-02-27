@@ -1069,6 +1069,8 @@ count: false
 
 # Wege zur *Ground Truth* rev.: Rollenaufteilung
 
+.cols[
+.sixty[
 - Arbeitskraft: Beitrag durch Freiwillige
     * (regionales) Interesse und Sichtbarkeit der Arbeit
 - Technik: Optimierung der Rahmenbedingungen
@@ -1076,10 +1078,13 @@ count: false
 - Datenkompetenz: Organisation der Abläufe
     * Vermittlung von Grundkenntnissen
     * Konsolidierung und Inwertsetzung der Arbeit
-
+]
+.fourty[
 <center>
 <img src="img/ehrenamt.png" width="350px" />
 </center>
+]
+]
 
 
 <!-- hier eventuell eine Folie zu weiteren begrifflichen Unterscheidungen:
