@@ -629,7 +629,6 @@ count: false
     + [OCR4all](https://www.ocr4all.org/)
     + [eScriptorium](https://escriptorium.openiti.org/)
     + ([Transkribus](https://readcoop.eu/de/transkribus/))
-    + [Aletheia](https://www.primaresearch.org/tools/Aletheia)
 * Publikationsinfrastruktur
     + [HTR-United](https://htr-united.github.io/)
     + [Zenodo](https://zenodo.org/communities/ocr_models/records)
@@ -733,24 +732,13 @@ count: false
 
 ---
 
-# Wege zur *Ground Truth*: [Aletheia](https://www.primaresearch.org/tools/Aletheia)
-
-* vollständiger GT-Editor für [PAGE-XML](https://github.com/PRImA-Research-Lab/PAGE-XML)
-
-<center>
-<img src="https://cdn.wpmeducation.com/53544f/9b62a1e054/3B44-311A-423B-9F17-A3D4.jpg" width="450px" />
-</center>
-
----
-
 # Wege zur *Ground Truth*: Werkzeugvergleich
 
 | **Werkzeug** | **Offenheit** | **Datenformate** | **UM** | **VC** | **SX** | **Vorverarbeitung** | **Training** | 
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **OCR4all** | Code, Modelle | METS, PAGE | nein | nein | nein | OLR, OCR | OCR (werkspez.) |
-| **eScriptorium** | Code, Modelle | IIIF, (PAGE), (ALTO) | ja | ja | (ja) | OLR, OCR | OLR, OCR (werkspez.) |
-| **Transkribus** | - | (PAGE), ALTO | ja | ja | ? | OLR, OCR| OLR, OCR |
-| **Aletheia** | - | (METS), PAGE | nein | nein | nein | - | - |
+| **eScriptorium** | Code, Modelle | IIIF, (PAGE), (ALTO) | ja | ja | ja | OLR, OCR | OLR, OCR (werkspez.) |
+| **Transkribus** | - | (PAGE), ALTO | ja | nein | ja$ | OLR, OCR| OLR, OCR |
 
 - UM: Kollaboration
 - VC: Versionsverwaltung
