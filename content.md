@@ -1107,8 +1107,15 @@ count: false
 
 # Wege zur *Ground Truth* rev.: Datenkultur
 
-* Schnittstellen- und Plattformneutralität
-* OCR-D
+- GT entsteht überall!
+    * meist urheberrechtlich unproblematisches Material
+    * mit Mühe, Einsatz und öffentlicher Finanzierung erarbeitet
+- GT ist wertvoll!
+    * generalisierte Modelle mit Finetuning und iteratives Training
+    * für Erschließung von Kulturerbe
+- GT muss verfügbar sein!
+    * Modell- und Methodentransparenz
+    * maximale gegenseitige Unterstützung
 
 ---
 
