@@ -1015,7 +1015,7 @@ count: false
 <div class="cols">
 <div class="fifty">
 
-<table class="my-table">
+<table class="my-table" style="font-size: small">
 <thead>
 <tr>
 <th><strong>Zeichen</strong></th>
@@ -1110,7 +1110,7 @@ count: false
 </div>
 <div class="fifty">
 
-<table class="my-table">
+<table class="my-table" style="font-size: small">
 <thead>
 <tr>
 <th><strong>Zeichen</strong></th>
