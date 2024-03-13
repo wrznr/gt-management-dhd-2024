@@ -1012,7 +1012,7 @@ count: false
 
 # Trainingseffekte: Auswertungsbsp. _Zeichensatz_
 
-<div class="cols">
+<div class="cols" style="font-size: small">
 <div class="fifty">
 
 <table class="my-table" style="font-size: small">
