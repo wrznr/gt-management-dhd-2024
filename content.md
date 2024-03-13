@@ -1010,6 +1010,49 @@ count: false
 
 ---
 
+# Trainingseffekte: Auswertungsbsp. _Zeichensatz_
+
+<div class="my-table"></div>
+
+| **Zeichen** | **f# GT** | **f# OCR** |
+| --- | --- | --- |
+| \t | 22 | 0 |
+| " ASCII dq | 66 | 42 |
+| “ left dq | 21 | 6 |
+| ” right dq | 7 | 0 |
+| „ left low | 14 | 11 |
+| ' | 13 | 7 |
+| ʼ mod apostrophe | 1 | 0 |
+| ‘ left apostrophe | 11 | 11 |
+| # | 3 | 0 |
+| ⁄ fraction slash | 1 | 0 |
+| / slash | 95 | 80 |
+| = | 1 | 0 |
+| ⸗ | 4087 | 4114 |
+| - fig dash | 1 | 0 |
+| - n dash | 19 | 8 |
+| - m dash | 31 | 33 |
+| [ | 6 | 1 |
+| ] | 6 | 0 |
+| 〚| 34 | 5 |
+| 〛| 34 | 3 |
+| _ | 3 | 0 |
+| &vert; | 5 | 0 |
+| Å | 1 | 0 |
+| Ä | 3 | 0 |
+| Ö | 4 | 2 |
+| Ü | 1 | 0 |
+| ē | 1 | 0 |
+| è | 1 | 0 |
+| ᗞ | 1 | 0 |
+| ℓ script l | 23 | 19 |
+| ☉ | 11 | 11 |
+| ☽ | 1 | 0 |
+| ♂' | 2 | 0 |
+| ♄ | 1 | 0 |
+
+---
+
 # Trainingseffekte: Auswertungsbsp. _Schreiber_
 
 <div class="my-table"></div>
@@ -1018,12 +1061,12 @@ count: false
 | --- | --- | --- |
 | alles | 19618 | 1.6 |
 | train | 17622 | 1.4 |
-| val | 1996 | 3.3 |
+| val | 1996 | **3.4** |
 | train Schreiber 1 | 710 | **5.1** |
 | val Schreiber 1 | 64 | 3.1 |
 | train Schreiber 3 | 3179 | 2.8 |
-| val Schreiber 3 | 447 | 3.9 |
-| train Schreiber 4 | 1650 | 2.9 |
+| val Schreiber 3 | 447 | 4.0 |
+| train Schreiber 4 | 1650 | 3.0 |
 | val Schreiber 4 | 313 | **8.3** |
 | train Schreiber 11 | 474 | **0.3** |
 | val Schreiber 11 | 142 | 2.5 |
