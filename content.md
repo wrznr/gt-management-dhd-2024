@@ -1012,7 +1012,210 @@ count: false
 
 # Trainingseffekte: Auswertungsbsp. _Zeichensatz_
 
-<div class="my-table"></div>
+<div class="cols">
+<div class="fifty">
+
+<table class="my-table">
+<thead>
+<tr>
+<th><strong>Zeichen</strong></th>
+<th><strong>f# GT</strong></th>
+<th><strong>f# OCR</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>\t</td>
+<td>22</td>
+<td>0</td>
+</tr>
+<tr>
+<td>" ASCII dq</td>
+<td>66</td>
+<td>42</td>
+</tr>
+<tr>
+<td>“ left dq</td>
+<td>21</td>
+<td>6</td>
+</tr>
+<tr>
+<td>” right dq</td>
+<td>7</td>
+<td>0</td>
+</tr>
+<tr>
+<td>„ left low</td>
+<td>14</td>
+<td>11</td>
+</tr>
+<tr>
+<td>'</td>
+<td>13</td>
+<td>7</td>
+</tr>
+<tr>
+<td>ʼ mod apostrophe</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>‘ left apostrophe</td>
+<td>11</td>
+<td>11</td>
+</tr>
+<tr>
+<td>#</td>
+<td>3</td>
+<td>0</td>
+</tr>
+<tr>
+<td>⁄ fraction slash</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>/ slash</td>
+<td>95</td>
+<td>80</td>
+</tr>
+<tr>
+<td>=</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>⸗</td>
+<td>4087</td>
+<td>4114</td>
+</tr>
+<tr>
+<td>- fig dash</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>- n dash</td>
+<td>19</td>
+<td>8</td>
+</tr>
+<tr>
+<td>- m dash</td>
+<td>31</td>
+<td>33</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+<div class="fifty">
+
+<table class="my-table">
+<thead>
+<tr>
+<th><strong>Zeichen</strong></th>
+<th><strong>f# GT</strong></th>
+<th><strong>f# OCR</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>[</td>
+<td>6</td>
+<td>1</td>
+</tr>
+<tr>
+<td>]</td>
+<td>6</td>
+<td>0</td>
+</tr>
+<tr>
+<td>〚</td>
+<td>34</td>
+<td>5</td>
+</tr>
+<tr>
+<td>〛</td>
+<td>34</td>
+<td>3</td>
+</tr>
+<tr>
+<td>_</td>
+<td>3</td>
+<td>0</td>
+</tr>
+<tr>
+<td>|</td>
+<td>5</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Å</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Ä</td>
+<td>3</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Ö</td>
+<td>4</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Ü</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ē</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>è</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ᗞ</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ℓ script l</td>
+<td>23</td>
+<td>19</td>
+</tr>
+<tr>
+<td>☉</td>
+<td>11</td>
+<td>11</td>
+</tr>
+<tr>
+<td>☽</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>♂'</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr>
+<td>♄</td>
+<td>1</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+
+<!--
 
 | **Zeichen** | **f# GT** | **f# OCR** |
 | --- | --- | --- |
@@ -1050,6 +1253,8 @@ count: false
 | ☽ | 1 | 0 |
 | ♂' | 2 | 0 |
 | ♄ | 1 | 0 |
+
+-->
 
 ---
 
