@@ -738,7 +738,7 @@ count: false
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **OCR4all** | Code, Modelle | METS, PAGE | nein | nein | nein | OLR, OCR | OCR (werkspez.) |
 | **eScriptorium** | Code, Modelle | IIIF, (PAGE), (ALTO) | ja | ja | ja | OLR, OCR | OLR, OCR (werkspez.) |
-| **Transkribus** | - | (PAGE), ALTO | ja | nein | ja$ | OLR, OCR| OLR, OCR |
+| **Transkribus** | - | (PAGE), ALTO | ja | (ja) | ja$ | OLR, OCR| OLR, OCR |
 
 - UM: Kollaboration
 - VC: Versionsverwaltung
